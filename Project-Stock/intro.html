@@ -1,0 +1,158 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<link href="intro.css" rel="stylesheet" type="text/css">
+<link href="menu.css" rel="stylesheet" type="text/css">
+<style>
+	#container
+	{
+		width: 500px;
+		height: 500px;
+		border-radius: 10px;
+		border: 2px solid black;
+		margin: 50px auto;
+		padding: 20px;
+	}
+	h2{
+		text-align: center;
+		color: royalblue;
+	}
+</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">	
+	</script>
+
+	<script src="jquery-1.7.1.min.js"></script>
+
+	<script>
+		$(document).ready(function()
+		{
+			$.getJSON('https://www.google.com/finance/info?q=NASDAQ:AAPL&callback=?',function(data){
+                     $('#nifty').text(data[0].1);
+                     $('#down').text(data[0].c)
+			});
+
+			$.getJSON('https://www.google.com/finance/info?q=INDEXBOM:SENSEX&callback=?',function(data){
+                     $('#bse').text(data[0].1);
+                     $('#bsedown').text(data[0].c)
+			});
+		});
+	</script>
+	
+	<script language=javascript>
+		  document.write('Today is '+Date()+'<br />');
+		  function doTheThing(){
+		  setTimeout(function(){
+		  location.reload();
+		},500);
+	}
+	</script>
+
+
+<meta http-equiv="refresh" content="8">
+</head>
+
+<body background="FreeGreatPicture.com-2063-background-color.jpg">
+<table width="1254" border="1">
+  <tr>
+    <td width="236" height="141"><img src="dse-logo.jpg" width="236" height="127" alt=""/></td>
+    <td width="1002">
+    <h1>Dhaka Stock Exchange Ltd.</h1></td>
+  </tr>
+</table>
+<table width="1255" style="margin-left:0em;">
+    <tr>
+    <td width="1298" height="62">
+    <div id="navigation">
+    <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/project.html">Home</a></li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">About Us</a>
+      <ul>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">Introduction to DSE</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mi&vi.html">Mission and Vision</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/glance.html">DSE at a Glance</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/bod.html">Board of Directors</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mng.html">DSE Management</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/legal.html">Legal Control</a></li>
+        </li>
+        </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Market Updates</a>
+      <ul style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Top 10 Gainer</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10l.html">Top 10 Loser</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/stat.html">Market Statistics</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Rules and Regulations</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Listing Regulation</a></li>
+        <li style="width:200px;"><a href="http://www.dse.com.bd/pdf/margin_rules.pdf">Margin Rules</a></li>
+      </ul>
+      </li style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Companies Info</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Listed Company</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/ager.html">AGM/EGM and Record Date</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/c-us.html">Contact Us</a></li>
+    </ul>
+    </div></td>
+    </tr>
+    </table>
+    <hr style="background-color:red;" width="1330" size="2"/>
+    <h2>Introduction to DSE </h2>
+    <h4>The necessity of establishing a stock exchange in the then East Pakistan was first recognised by the government when, early in 1952, it was learnt that the Calcutta Stock Exchange had prohibited transactions of Pakistani shares and securities. The Provincial Industrial Advisory Council of Pakistan soon set up an organizing committee for the formation of a stock exchange in East Pakistan. A decisive step was taken in the second meeting of the organizing committee held on 13thMarch, 1953. In the cabinet room, Eden Building, under the chairmanship of A. Khaleeli, Secretary of the Government of East Bengal, Commerce, Labor and Industries Department, various aspects of the issue were discussed in detail. The central government’s proposal regarding the opening a branch of Karachi Stock Exchange at Dhaka did not find favor with the meeting who felt that East Pakistan should have an independent stock exchange. It was suggested that Dacca Narayanganj Chamber of Commerce & Industry should approach its members for purchasing the membership cards at RS. 2000 each for the proposed Stock Exchange. It was thought that the location of the exchange should be either at Dhaka or Narayanganj or Chittagong. An organizing committee was appointed consisting of leading commercial and industrial personalities of the province with Mirza Mehdi Ispahani as the convener in order to organize the exchange. </h4>
+    <br>
+<h4>
+The chamber informed its members and members of its affiliated associations on the proceedings of the above meeting, requesting them to intimate whether they were interested in joining the proposed stock exchange. This was followed by meeting at the chamber of which about 100 persons were interested in the formation of the exchange on July 7, 1953. The meeting invited 8 gentlemen to become promoters of the exchange with M Mehdi Ispahani as the convener and authorized them to draw up the Memorandum and Articles of Association of the Exchange and proceed to obtain registration under the Company’s Act, 1913. The other 7 promoters of the exchange were J. M. Addision-Scott, Mohamed Hanif, A. C. Jain, A.K. Khan, Abdul Jalil, M. Shabbir Ahmed and Sakhawat Hossain.
+</h4>
+<br>
+<h4>
+It was also decided that membership fee was to be RS. 2,000 and subscription at the rate of RS. 15 per month. The exchange was to consist of not more than 150 members. A meeting of the promoters was held at the chamber on September 03, 1953 when it was decided to appoint Orr Dignam & Co. as the solicitor to draw up the memorandum and articles of association of the stock exchange based on the rules prevailing in the stock exchanges in other countries and by taking into account the local conditions. 
+</h4>
+<br>
+<h4>The 8 promoters incorporated the formation as the East Pakistan Stock Exchange Association Limited on April 28, 1954. As public limited company the name was revised to East Pakistan Stock Exchange Ltd on June 23, 1962. Again on May 14, 1964 the name of East Pakistan Stock Exchange Limited was changed to "Dacca Stock Exchange Ltd." 
+</h4>
+<br>
+<h4>
+At the time of incorporation, the authorized capital of the Exchange was RS. 3,00,000 divided into 150 shares of RS. 2,000 each and by an extra ordinary general meeting held on February 22, 1964 the authorized capital of the exchange was increased to RS. 5,00,000 divided into 250 shares of RS. 2,000 each. The paid up capital of the exchange stood at RS. 4,60,000 divided into 230 shares of RS. 2,000 each. However, 35 shares out of 230 shares were issued at RS. 80,00,000 only with a face value of RS. 2,000 at a premium of RS. 79,98,000 each. </h4>
+<br>
+<h4>Although incorporated in 1954, the formal trading started in 1956 at Narayanganj after obtaining thecertificate of commencement of business. But in 1958 it was shifted to Dhaka and started functioning at the Narayangonj Chamber Building in Motijheel C/A. 
+</h4>
+<br>
+<h4>     On October 1, 1957 the Stock Exchange purchased a land measuring 8.75 katha at 9F Motijheel C/A from the Government and shifted to its own current location in 1959.
+
+</h4>
+<br>
+<h2>Legal Control</h2>
+<h4>    The Dhaka Stock Exchange (DSE) is registered as a Public Limited Company and its activities are regulated by its Articles of Association rules & regulations and by-laws along with the Securities and Exchange Ordinance - 1969, Companies Act - 1994 & Securities & Exchange Commission Act - 1993.
+</h4>
+<h2>Function of DSE</h2>
+<h4>The major functions are:</h4>
+<h3>
+        1.Listing of Companies (As per Listing Regulations).<br>
+        2.Providing the screen based automated trading of listed Securities.<br>
+        3.Settlement of trading (As per Settlement of Transaction Regulations).<br>
+        4.Gifting of share / granting approval to the transaction/transfer of share outside the trading system of the exchange (As per Listing Regulations 47).<br>
+        5.Market Administration & Control.<br>
+        6.Market Surveillance.<br>
+        7.Publication of Monthly Review.<br>
+        8.Monitoring the activities of listed companies (As per Listing Regulations).<br>
+        9.Investors grievance Cell (Disposal of complaint bye laws 1997).<br>
+        10.Investors Protection Fund (As per investor protection fund Regulations 1999).<br>
+        11.Announcement of Price sensitive or other information about listed companies through online.
+</h3>
+<br>
+<h5> 
+  <p>Dhaka Stock Exchange Ltd.</p>  
+<p>STOCK EXCHANGE BUILDING,</p><p>9/F MOTIJHEEL C/A, DHAKA BANGLADESH</p>
+<p>Phone: 88-02-9564601, 9576210-18, FAX: +88-02-9564727, +88-02-9569755</p>
+<p>Email: dse@bol-online.com, Web: http://www.dsebd.org/</p>
+     </h5>
+     <br></h5>
+ <p align="center">All Right Reserved By: Md. Asifuzzaman Jishan, ID-143014010, Department of CSE, ULAB</p>
+</body>
+</html>

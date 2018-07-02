@@ -1,0 +1,739 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<link href="top10g.css" rel="stylesheet" type="text/css">
+<style>
+	#container
+	{
+		width: 500px;
+		height: 500px;
+		border-radius: 10px;
+		border: 2px solid black;
+		margin: 50px auto;
+		padding: 20px;
+	}
+	h2{
+		text-align: center;
+		color: royalblue;
+	}
+</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">	
+	</script>
+
+	<script src="jquery-1.7.1.min.js"></script>
+
+	<script>
+		$(document).ready(function()
+		{
+			$.getJSON('https://www.google.com/finance/info?q=NASDAQ:AAPL&callback=?',function(data){
+                     $('#nifty').text(data[0].1);
+                     $('#down').text(data[0].c)
+			});
+
+			$.getJSON('https://www.google.com/finance/info?q=INDEXBOM:SENSEX&callback=?',function(data){
+                     $('#bse').text(data[0].1);
+                     $('#bsedown').text(data[0].c)
+			});
+		});
+	</script>
+	
+	<script language=javascript>
+		  document.write('Today is '+Date()+'<br />');
+		  function doTheThing(){
+		  setTimeout(function(){
+		  location.reload();
+		},500);
+	}
+	</script>
+
+
+<meta http-equiv="refresh" content="8">
+</head>
+
+<body background="FreeGreatPicture.com-1380-background-color.jpg">
+<table width="1254" border="1">
+  <tr>
+    <td width="236" height="141"><img src="dse-logo.jpg" width="236" height="127" alt=""/></td>
+    <td width="1002">
+    <h1>Dhaka Stock Exchange Ltd.</h1></td>
+  </tr>
+</table>
+<table width="1255" style="margin-left:0em;">
+    <tr>
+    <td width="1298" height="62">
+    <div id="navigation">
+    <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/project.html">Home</a></li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">About Us</a>
+      <ul>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">Introduction to DSE</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mi&vi.html">Mission and Vision</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/glance.html">DSE at a Glance</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/bod.html">Board of Directors</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mng.html">DSE Management</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/legal.html">Legal Control</a></li>
+       </li>
+        </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Market Updates</a>
+      <ul style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Top 10 Gainer</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10l.html">Top 10 Loser</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/stat.html">Market Statistics</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Rules and Regulations</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Listing Regulation</a></li>
+        <li style="width:200px;"><a href="http://www.dse.com.bd/pdf/margin_rules.pdf">Margin Rules</a></li>
+      </ul>
+      </li style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Companies Info</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Listed Company</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/ager.html">AGM/EGM and Record Date</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/c-us.html">Contact Us</a></li>
+    </ul>
+    </div></td>
+    </tr>
+    </table>
+<h2>DHAKA STOCK EXCHANGE LTD.</h2>
+
+                      DHAKA STOCK EXCHANGE LTD.<br>
+
+                  TODAY'S SHARE MARKET : 2017-12-28<br>
+                  =================================
+  Please press the refresh button if the page isn't updated<br>
+
+All Category<br>
+
+    ISSUES ADVANCED                 :                    237<br>
+    ISSUES DECLINED                 :                     64<br>
+    ISSUES UNCHANGED                :                     35<br>
+    TOTAL ISSUES TRADED             :                    336<br><br>
+
+
+A Category (Equity)<br>
+
+    ISSUES ADVANCED                 :                    185<br>
+    ISSUES DECLINED                 :                     53<br>
+    ISSUES UNCHANGED                :                     27<br>
+    TOTAL ISSUES TRADED             :                    265<br>
+<br>
+
+B Category (Equity)<br>
+
+    ISSUES ADVANCED                 :                     15<br>
+    ISSUES DECLINED                 :                      1<br>
+    ISSUES UNCHANGED                :                      2<br>
+    TOTAL ISSUES TRADED             :                     18<br>
+<br>
+
+N Category (Equity)<br>
+
+    ISSUES ADVANCED                 :                      6<br>
+    ISSUES DECLINED                 :                      1<br>
+    ISSUES UNCHANGED                :                      0<br>
+    TOTAL ISSUES TRADED             :                      7<br>
+<br>
+
+Z Category (Equity)<br>
+
+    ISSUES ADVANCED                 :                     31<br>
+    ISSUES DECLINED                 :                      9<br>
+    ISSUES UNCHANGED                :                      6<br>
+    TOTAL ISSUES TRADED             :                     46<br>
+<br>
+
+MUTUAL FUND (MF)<br>
+
+    ISSUES ADVANCED                 :                     21<br>
+    ISSUES DECLINED                 :                      3<br>
+    ISSUES UNCHANGED                :                     12<br>
+    TOTAL ISSUES TRADED             :                     36<br>
+
+<br>
+CORPORATE BOND (CB)<br>
+
+    ISSUES ADVANCED                 :                      1<br>
+    ISSUES DECLINED                 :                      1<br>
+    ISSUES UNCHANGED                :                      0<br>
+    TOTAL ISSUES TRADED             :                      2<br>
+
+<br>
+TREASURY BOND (TB)<br>
+
+    ISSUES ADVANCED                 :                      0<br>
+    ISSUES DECLINED                 :                      0<br>
+    ISSUES UNCHANGED                :                      0<br>
+    TOTAL ISSUES TRADED             :                      0<br>
+
+<br>
+TOTAL TRANSACTIONS<br>
+
+    A. NO. OF TRADES                :                 101786<br>
+    B. VOLUME(Nos.)                 :              149867918<br>
+    C. VALUE(Tk)                    :          6280476959.10<br>
+
+
+<br>
+MARKET CAPITALISATION<br>
+
+    1. EQUITY                       :       3631438487609.28<br>
+    2. MUTUAL FUND                  :         42311855513.07<br>
+    3. DEBT SECURITIES              :        555195113340.00<br>
+    TOTAL                           :       4228945456462.35<br>
+
+
+<br>
+
+                   PRICES IN PUBLIC TRANSACTIONS : 2017-12-28<br>
+                   ==========================================
+
+A Category (Equity)<br>
+----------------
+Instr Code     Open     High      Low    Close   %Chg  <br>Trade       Volume    Value(Mn)
+
+AAMRATECH     32.20    33.50    32.20    33.30   4.72    <br>779       561183       18.583
+ABBANK        22.50    22.70    22.00    22.10  -0.90   <br>1448      3101455       69.114
+ACI          460.20   464.00   459.10   459.80  -0.24   <br> 327        29582       13.615
+ACIFORMULA   172.00   177.00   172.00   173.60   0.70    <br> 34         8839        1.534
+ACMELAB      114.00   114.30   113.60   114.00   0.26    <br>201       124381       14.168
+ACTIVEFINE    35.20    35.50    34.90    35.20   0.57    <br>712       737188       25.914
+AFCAGRO       44.20    45.20    44.20    45.00   1.35    <br>171       105070        4.704
+AFTABAUTO     62.60    65.20    62.50    64.20   1.74    <br>158       101258        6.462
+AGNISYSL      21.90    22.00    21.70    21.90   1.86    <br>186       210288        4.606
+AGRANINS      20.60    21.20    20.50    20.60   0.49     <br>17         7648        0.158
+AL-HAJTEX     92.10    94.00    91.90    93.70   1.85    <br>265        52524        4.901
+ALARABANK     24.20    24.70    24.00    24.10  -0.41    <br>496      1927413       46.738
+ALIF          26.10    26.70    24.90    25.10  -3.09   <br>2011      3392511       86.599
+AMANFEED      64.50    65.20    63.40    63.60  -0.62    <br>291       107953        6.890
+AMBEEPHA     386.10   396.90   385.10   387.20   0.39     <br>39         1662        0.643
+AMCL(PRAN)   224.50   225.00   221.00   222.00   0.45    <br>148        18425        4.101
+ANLIMAYARN    31.50    32.10    31.40    31.50   0.00    <br>121        99380        3.148
+ANWARGALV     81.60    82.10    80.40    80.60  -1.23    <br>329        74091        5.992
+APEXFOODS    141.40   143.60   140.00   141.20   0.36     <br>92        17632        2.501
+APEXFOOT     317.00   329.90   315.00   328.60   3.37    <br>213        20646        6.697
+APEXSPINN    116.30   117.50   115.10   116.50   0.78    <br>101        14362        1.668
+APEXTANRY    150.00   150.00   147.00   148.60   1.09     <br>66        16175        2.399
+APOLOISPAT    16.50    16.60    16.30    16.50   1.23    <br>318       766436       12.623
+ARAMIT       332.60   337.00   332.30   334.40  -0.18     <br>56         2365        0.789
+ARGONDENIM    30.80    31.10    30.70    30.90   0.98    <br>140       130346        4.023
+ASIAINS       23.90    24.00    23.70    23.90   3.91      <br>9        11660        0.279
+ASIAPACINS    24.60    25.40    24.60    25.20   0.80     <br> 6         4000        0.101
+ATLASBANG    130.50   132.90   128.00   131.40   2.42     <br>93        16236        2.105
+BANKASIA      23.70    23.70    22.90    23.10  -0.86    <br>263       874512       20.259
+BARKAPOWER    34.10    36.50    34.10    34.40   0.88    <br>476       644861       22.362
+BATASHOE    1164.00  1172.00  1163.00  1171.80   0.41     <br>42         1486        1.741
+BATBC       3390.00  3410.00  3370.00  3401.60   0.09     <br>16          507        1.725
+BAYLEASING    26.80    27.60    26.80    27.40   2.24    <br>476       538845       14.760
+BBS           38.00    38.50    37.80    38.20   0.79    <br>331       264128       10.110
+BDCOM         27.30    27.70    27.00    27.20   0.74    <br>336       464781       12.667
+BDFINANCE     21.60    21.90    21.10    21.60  -0.92    <br>231      1251300       27.007
+BDLAMPS      183.00   190.00   181.00   186.80   1.03    <br>560        87238       16.219
+BENGALWTL     39.00    39.50    38.90    39.10  -0.26    <br>121        58644        2.290
+BERGERPBL   2063.00  2063.00  2063.00  2063.00  -1.06      <br>2           25        0.052
+BEXIMCO       26.60    27.30    26.60    27.00   2.66   <br>1457      2859699       77.478
+BGIC          21.50    22.50    21.20    22.20   4.23     <br>41        36545        0.800
+BNICL         19.80    19.90    19.60    19.80  -0.50    <br>150       162167        3.200
+BRACBANK     108.10   109.00   107.80   108.40   0.37    <br>832       717846       77.859
+BSC           46.70    47.00    46.10    46.70   0.86    <br>638       318393       14.855
+BSCCL        103.50   104.50   102.60   103.10  -0.39    <br>220        56145        5.807
+BSRMLTD       99.00   100.60    97.40    98.80   1.65    <br>742       234397       23.242
+BSRMSTEEL     78.00    79.40    77.90    78.50   0.64    <br>163       117267        9.178
+BXPHARMA     101.90   105.30   101.80   103.80   1.47    <br>487       312804       32.207
+CENTRALINS    22.50    22.50    22.30    22.40  -1.32     <br> 8         2471        0.055
+CENTRALPHL    18.40    18.90    18.40    18.70   1.63    <br>286       404473        7.553
+CITYBANK      52.30    53.30    52.10    53.20   1.92    <br>749      1382762       73.348
+CITYGENINS    18.30    18.50    18.00    18.20  -0.55     <br>94       123090        2.240
+CONFIDCEM    152.20   156.00   151.60   152.50   0.20    <br>518       215174       33.007
+CONTININS     22.40    22.40    22.20    22.30   0.00      <br>2          775        0.017
+DAFODILCOM    43.50    43.90    43.20    43.40   0.70    <br>116        74562        3.245
+DBH          135.70   137.00   134.70   136.00  -0.22     <br>92        33110        4.502
+DELTALIFE    107.50   108.50   107.00   107.60   0.28    <br>141        43195        4.663
+DELTASPINN     9.40     9.50     9.30     9.40   1.08    <br>155       253830        2.379
+DESCO         45.00    45.50    44.90    45.40   0.44    <br>196       266212       12.052
+DHAKABANK     22.30    22.60    21.80    22.00  -0.90    <br>681      2678717       59.323
+DHAKAINS      24.60    24.60    24.30    24.60   0.41      <br>7         1806        0.044
+DOREENPWR    113.90   115.60   113.80   114.20   0.44    <br>586       205877       23.517
+DSHGARME     236.00   243.90   236.00   238.90   0.89    <br>194        13444        3.214
+DSSL          17.00    17.30    16.90    17.10   0.59    <br>205       372542        6.360
+DUTCHBANGL   148.70   153.50   147.70   153.10   4.08    <br>757       246916       37.368
+EASTERNINS    29.90    29.90    28.50    28.70  -1.71     <br>74        66101        1.901
+EASTLAND      23.90    24.00    23.70    23.80  -0.83     <br>53        29166        0.695
+EASTRNLUB    945.00   998.90   945.00   974.40   3.15     <br>80         1661        1.610
+EBL           50.50    51.40    50.50    51.10   2.00    <br>380       956118       48.693
+ECABLES      191.80   202.30   191.20   199.60   5.22    <br>589        63445       12.500
+EHL           49.30    49.90    49.00    49.20  -0.20    <br>238       214537       10.562
+EMERALDOIL    19.30    19.40    17.90    18.20  -6.19    <br>898       967195       17.853
+ENVOYTEX      34.40    35.00    34.40    34.80   0.87    <br>145       226665        7.837
+ETL           16.30    16.50    16.20    16.40   0.00    <br>179       339511        5.551
+EXIMBANK      17.20    17.50    17.10    17.20   0.58   <br>1116      5601565       96.655
+FARCHEM       19.50    19.60    19.30    19.50   1.04    <br>152       235649        4.579
+FAREASTLIF    72.00    73.00    71.30    71.50  -0.42     <br>87        53506        3.837
+FEKDIL        19.40    19.70    19.10    19.50   1.56    <br>151       241676        4.697
+FIRSTSBANK    15.20    15.40    15.10    15.30   0.66    <br>282       967738       14.781
+FUWANGCER     16.60    16.70    16.40    16.50   0.61    <br>228       369842        6.113
+FUWANGFOOD    19.80    19.90    19.60    19.80   1.02    <br>389       534412       10.562
+GBBPOWER      18.50    18.90    18.50    18.80   1.62    <br>125       106655        1.996
+GEMINISEA    457.00   459.00   451.40   454.70   0.82    <br>493        13365        6.085
+GENNEXT        9.30     9.50     9.30     9.40   1.08    <br>399      1661066       15.633
+GHAIL         42.30    43.10    41.80    42.10   0.48    <br>662      1131627       47.852
+GHCL          40.20    40.20    39.20    39.70  -0.25     <br>36        40760        1.618
+GLAXOSMITH  1555.20  1560.00  1546.10  1550.80  -0.01     <br>47          291        0.451
+GP           469.40   472.00   467.00   470.80   0.62    <br>732       176528       82.866
+GPHISPAT      38.30    39.10    38.20    38.80   1.57    <br>301       209779        8.115
+GQBALLPEN     90.40    91.00    89.00    90.00   0.22    <br>115        20437        1.833
+GREENDELT     62.00    62.30    60.60    61.40  -0.97     <br>32         4373        0.270
+GSPFINANCE    30.50    31.00    30.50    30.70   0.99    <br>184       157266        4.834
+HEIDELBCEM   410.30   427.00   410.30   424.90   3.58    <br>925        66913       27.985
+HFL           25.40    25.90    25.40    25.70   0.78     <br>81       172967        4.446
+HRTEX         32.30    32.30    32.00    32.10   0.00     <br>55        40053        1.286
+HWAWELLTEX    37.30    37.40    36.50    37.10   1.37     <br>12        28950        1.074
+IBNSINA      243.00   245.00   240.60   244.40   1.08    <br>487       105692       25.754
+ICB          159.00   160.90   159.00   160.00  -0.12    <br>230        38614        6.182
+IDLC          85.30    85.90    84.90    85.30   0.95    <br>666       878209       74.974
+IFADAUTOS    125.80   130.90   124.20   126.00   0.96    <br>541       328857       41.236
+IFIC          18.00    18.10    17.90    18.00   1.12    <br>624      1354145       24.371
+INTECH        17.60    17.60    17.20    17.50   1.16    <br>139       141198        2.464
+IPDC          48.80    50.40    48.10    50.10   5.25    <br>565       872737       43.312
+ISLAMIBANK    36.20    37.50    36.20    36.60   1.39   <br>1994      6761378      249.249
+ISLAMICFIN    20.90    21.00    20.70    21.00   0.96    <br>128       218104        4.549
+ISLAMIINS     32.00    32.80    32.00    32.60   2.19     <br>81        10392        0.335
+ITC           35.00    35.50    34.30    35.50   3.20    <br>216       167111        5.864
+JAMUNABANK    22.00    22.30    21.90    22.00   0.00    <br>282       949952       20.929
+JAMUNAOIL    187.60   189.90   187.00   189.70   1.07    <br>228        67884       12.774
+JMISMDL      182.00   182.50   179.30   181.40   0.39    <br>214        20775        3.758
+KARNAPHULI    18.10    18.10    17.60    17.60  -1.68     <br>29        11231        0.198
+KBPPWBIL      17.80    18.00    17.70    17.80   1.14    <br>160       234436        4.175
+KDSALTD       68.00    68.70    66.40    66.60  -1.77    <br>191        71781        4.817
+KEYACOSMET    12.20    12.40    12.20    12.30   0.82    <br>552      1516257       18.640
+KOHINOOR     388.90   388.90   381.30   382.80   0.34     <br>52         1445        0.554
+KPCL          57.30    59.30    57.30    58.50   2.27    <br>299       141692        8.230
+LAFSURCEML    71.00    71.80    68.40    69.90  -0.57   <br>3580      4390657      306.146
+LANKABAFIN    47.50    48.10    47.40    47.80   1.27    <br>820      1444574       69.125
+LEGACYFOOT    55.40    56.60    54.10    56.10   3.89    <br>796       312907       17.350
+LIBRAINFU    528.80   528.80   522.00   523.00  -0.44     <br>23          582        0.304
+LINDEBD     1280.50  1296.90  1277.00  1284.70   0.55    <br>123         4552        5.831
+MALEKSPIN     19.90    20.00    19.50    19.70   0.00     <br>46        78060        1.541
+MARICO      1095.00  1114.90  1095.00  1106.10   0.55     <br>42          883        0.973
+MATINSPINN    38.30    38.90    38.30    38.60  -0.77     <br>17        15300        0.590
+MEGHNACEM     99.00   103.00    98.50   101.70   2.52     <br>78         8705        0.878
+MEGHNALIFE    59.90    60.50    59.10    59.90   1.35    <br>174       128611        7.703
+MERCANBANK    26.10    26.60    26.10    26.40   1.54    <br>728      3177127       83.842
+MERCINS       23.30    23.40    23.10    23.30   0.43    <br>100       124442        2.895
+MICEMENT      83.90    92.40    83.50    84.70   0.36     <br>56        24099        2.028
+MJLBD        103.40   109.70   103.40   109.10   3.41    <br>555       166154       17.883
+MONNOSTAF    655.60   663.90   655.60   660.30   0.75     <br>84         2198        1.448
+MPETROLEUM   187.00   189.90   186.90   188.90   0.85    <br>111        61282       11.563
+MTB           34.50    35.00    34.30    35.00   1.45    <br>142       829405       28.971
+NATLIFEINS   158.00   161.30   155.60   160.70   3.81    <br>267        73728       11.809
+NAVANACNG     66.30    67.70    66.30    67.10   0.60     <br>59        22890        1.536
+NBL           12.70    13.10    12.70    13.00   2.36   <br>1692      9905029      127.531
+NCCBANK       17.50    17.80    17.40    17.70   1.72    <br>515      2534335       44.628
+NFML          17.70    18.20    17.50    18.00   1.69    <br>323       528225        9.384
+NHFIL         47.60    48.00    47.00    47.20  -0.63     <br>61        16603        0.785
+NORTHERN     551.40   558.20   551.30   553.60   0.33    <br>128         5356        2.962
+NORTHRNINS    23.90    24.70    23.60    23.80   0.00     <br>38        12554        0.298
+NPOLYMAR      86.30    88.30    86.00    86.80   0.58    <br>350       120836       10.513
+NTC          610.00   619.90   605.50   613.90   0.16     <br>92         5606        3.435
+NTLTUBES     124.50   133.00   124.50   132.30   5.59   <br>1787       455842       59.339
+OAL           20.20    20.50    20.20    20.40   0.99    <br>185       348564        7.090
+OLYMPIC      295.00   295.00   284.00   288.30  -1.97    <br>408       185006       53.219
+ONEBANKLTD    24.20    24.30    23.90    24.00  -0.41    <br>319      1308977       31.568
+ORIONINFU     55.00    56.50    55.00    55.50   1.65    <br>151       106529        5.946
+ORIONPHARM    47.70    49.20    47.70    48.70   2.10    <br>218       269631       13.115
+PADMALIFE     50.10    50.70    48.80    50.20   1.01    <br>801       419674       20.923
+PADMAOIL     227.30   240.00   227.30   239.00   5.19    <br>292        71598       16.939
+PARAMOUNT     18.20    18.40    18.20    18.30   1.10     <br>54        48425        0.885
+PEOPLESINS    21.20    21.30    21.10    21.20  -1.40     <br>27        23800        0.504
+PHARMAID     412.00   425.00   407.00   418.30   2.40   <br>1359       122713       51.444
+PHENIXINS     29.50    29.60    29.40    29.50   0.34    <br> 12        17600        0.518
+PHOENIXFIN    37.50    37.80    37.40    37.70   1.62    <br>242       805757       30.279
+PIONEERINS    30.60    30.60    30.10    30.50   1.33    <br>  6         3958        0.121
+POPULARLIF    71.80    72.40    70.60    71.50  -0.28    <br>193       152361       10.948
+POWERGRID     51.80    52.60    51.70    52.20   0.58    <br>119        61122        3.177
+PRAGATIINS    29.90    30.00    29.70    29.80  -0.33     <br>60        49311        1.471
+PRAGATILIF   119.80   119.80   112.10   113.60   0.71    <br>146        33854        3.846
+PREMIERBAN    15.70    15.90    15.40    15.70   0.64   <br>1007      4653768       72.718
+PREMIERCEM    85.30    88.90    85.00    87.70   2.81    <br>118        67852        5.867
+PREMIERLEA    17.40    17.60    17.30    17.50   1.16     <br>72        64946        1.135
+PRIMEBANK     27.40    27.80    27.30    27.40   0.37    <br>425      1915000       52.771
+PRIMEINSUR    19.10    19.20    19.10    19.20  -1.03     <br>31        26066        0.500
+PRIMELIFE     55.20    55.30    54.30    54.90   0.55     <br>54        18333        1.006
+PRIMETEX      25.00    25.40    24.70    25.00   0.40    <br> 80        80798        2.019
+PROVATIINS    19.90    20.10    19.60    19.80  -0.50     <br>68        67891        1.347
+PTL           42.10    45.50    41.70    43.90   3.78   <br>1112      2807284      121.645
+PUBALIBANK    30.00    30.50    29.70    30.40   2.36    <br>445       659456       19.868
+PURABIGEN     17.40    17.40    17.00    17.30   0.58     <br>41        44404        0.763
+QSMDRYCELL    77.60    78.30    77.30    77.50  -0.26    <br>417       131817       10.237
+RAHIMTEXT    244.00   244.00   241.00   242.70   1.00     <br>65         4077        0.990
+RAKCERAMIC    60.20    60.50    59.70    59.90  -0.50    <br>512       373222       22.383
+RANFOUNDRY   129.00   129.30   126.00   126.60  -1.33    <br>259        58818        7.487
+RDFOOD        17.40    17.60    17.30    17.40   0.00    <br>293       547597        9.557
+RECKITTBEN  1720.00  1830.00  1705.10  1776.20   2.46     <br>44          216        0.380
+REGENTTEX     20.30    20.90    20.00    20.70   1.97    <br>350       280944        5.753
+RELIANCINS    55.60    55.60    54.10    54.70  -1.97      <br>6         1100        0.060
+RENATA      1121.70  1125.00  1121.70  1124.20   0.30    <br>135         6812        7.654
+RENWICKJA    551.00   563.20   551.00   553.40   1.02     <br>59          923        0.513
+REPUBLIC      26.70    26.70    26.10    26.30   0.00     <br>61        40182        1.060
+RNSPIN        16.60    16.80    16.40    16.50  -0.60    <br>460       740359       12.250
+RSRMSTEEL     63.00    63.00    61.30    61.80   0.82    <br>296       222970       13.780
+RUPALIBANK    63.90    67.20    63.90    66.20   5.08   <br>2782      1606508      105.758
+RUPALIBANK    63.90    67.20    63.90    66.20   5.08   <br>2782      1606508      105.758
+RUPALIINS     20.30    20.70    20.30    20.40   0.00     <br>53        55989        1.146
+RUPALILIFE    47.30    47.90    46.90    47.30   0.42    <br>460       474075       22.382
+SAIFPOWER     32.10    33.40    32.10    33.20   3.43    <br>647       705915       23.248
+SAIHAMCOT     17.00    17.10    16.80    16.90  -0.59    <br>172       464416        7.857
+SAIHAMTEX     19.00    19.90    18.90    19.20   1.59    <br>221       901518       17.406
+SALAMCRST     33.80    33.80    33.30    33.40   0.00     <br>72        52626        1.763
+SAMORITA      81.50    81.50    80.10    80.70   0.75    <br>165        39943        3.216
+SANDHANINS    31.70    31.80    31.10    31.50   0.64    <br>309       194819        6.123
+SAPORTL       34.20    34.60    34.10    34.30   0.59    <br>150       102247        3.507
+SHAHJABANK    33.00    33.30    32.70    33.00   0.61    <br>526      2082508       68.773
+SHASHADNIM    60.30    62.20    60.30    61.70   1.65    <br>434       401849       24.681
+SHEPHERD      28.30    28.60    28.20    28.50   0.71    <br>380       326734        9.291
+SIBL          23.90    24.50    23.90    24.30   1.67    <br>429       879996       21.354
+SIMTEX        29.30    29.60    29.30    29.40   0.68    <br>255       840840       24.736
+SINGERBD     195.00   196.20   194.90   195.50  -0.15    <br>315        51104        9.998
+SONALIANSH   221.90   222.40   220.00   220.60  -0.05    <br>113         8582        1.897
+SONARBAINS    18.10    18.60    18.10    18.40   1.10      <br>3          407        0.007
+SOUTHEASTB    22.00    22.40    21.90    22.20   1.37    <br>417      1207995       26.839
+SPCL         117.90   117.90   115.00   116.10   0.00    <br>206        42358        4.918
+SQUARETEXT    63.60    64.70    63.40    64.00   0.63    <br>267       192048       12.266
+SQURPHARMA   298.20   302.10   297.70   301.80   1.21   <br>1280       647605      194.490
+STANDARINS    29.10    30.10    28.90    29.30  -1.01    <br>169       143249        4.194
+STANDBANKL    15.80    15.80    15.40    15.60   0.00    <br>599      2448327       38.112
+STYLECRAFT  1445.00  1474.00  1400.00  1451.30  -0.03    <br>358         3909        5.625
+SUMITPOWER    35.80    36.00    35.70    35.90   1.13    <br>272       413664       14.842
+TAKAFULINS    24.20    25.60    24.20    24.80   1.22     <br>18         9208        0.229
+TITASGAS      44.20    44.50    44.00    44.20   0.45    <br>354       382640       16.947
+TOSRIFA       24.80    25.70    24.80    25.50   3.24    <br>283       469780       11.873
+TRUSTBANK     42.30    43.10    41.90    42.60   1.43    <br>593      1599224       68.028
+TUNGHAI       10.40    10.40    10.00    10.20   0.00    <br>533       959753        9.699
+UCB           23.70    24.00    23.40    23.60   0.43    <br>443      1750893       41.411
+UNIONCAP      20.00    20.20    19.90    20.10   1.01    <br>116       213315        4.265
+UNIQUEHRL     55.50    57.00    55.30    56.80   3.09    <br>799       394366       22.209
+UNITEDFIN     23.40    24.10    23.30    23.80   2.15    <br>100       437761       10.412
+UNITEDINS     29.80    29.80    29.80    29.80   0.00      <br>1          100        0.003
+UPGDCL       181.00   183.00   180.70   181.10   0.22    <br>741       195862       35.545
+USMANIAGL     86.70    91.70    86.70    90.70   2.49    <br>271        41847        3.757
+UTTARABANK    34.80    35.50    34.80    35.30   1.73    <br>454       512957       18.066
+UTTARAFIN     71.20    72.90    71.20    72.70   0.83   <br>  89        81613        5.922
+WATACHEM     265.00   270.00   252.50   264.40  -1.01   <br>1180       145673       37.753
+WMSHIPYARD    29.40    29.70    29.10    29.30   0.34    <br>662       623896       18.315
+ZAHEENSPIN    22.30    22.80    22.00    22.60   1.80    <br>268       652496       14.664
+ZAHINTEX      16.30    16.70    16.30    16.60   0.61    <br> 77       114487        1.891
+                                                      ------    ---------    ---------
+                                                       79941    119742321     4435.346
+
+A Category (Equity) scrips traded in Public Market=  229
+<br>
+
+
+B Category (Equity)<br>
+----------------
+Instr Code     Open     High      Low    Close   %Chg  <br>Trade       Volume    Value(Mn)
+
+BDAUTOCA     107.80   111.90   106.20   107.50   1.32    <br>188        25920        2.782
+BDTHAI        28.10    28.90    27.60    28.60   2.51    837      1479690       41.830
+BEACONPHAR    20.80    21.60    20.50    21.30   3.40    322      1007699       21.197
+CVOPRL       205.80   207.80   203.70   207.00   0.58    371        48957       10.092
+FAMILYTEX      7.70     7.70     7.60     7.60   0.00    219       488085        3.730
+FAREASTFIN    11.30    11.30    11.10    11.20   0.00    121       310134        3.475
+FASFIN        21.50    22.00    21.50    21.70   0.93    305       521236       11.326
+FEDERALINS    12.50    12.80    12.50    12.70   1.60     71        71719        0.906
+FINEFOODS     34.40    36.00    34.00    35.60   5.64    761       450062       15.878
+GLOBALINS     15.90    15.90    15.70    15.80   0.64     13         8815        0.139
+ILFSL         21.70    22.20    21.70    22.10   1.84    215       355185        7.827
+MHSML         19.20    19.30    19.00    19.10   0.53     84        72431        1.387
+MIRACLEIND    44.80    46.30    44.50    45.70   3.16    576       333794       15.220
+MONNOCERA     88.70    90.30    88.60    89.70   1.36    474        97811        8.745
+PENINSULA     23.10    23.50    23.00    23.30   0.43    165        92658        2.153
+SAFKOSPINN    16.70    17.10    16.60    17.00   1.80    311       261918        4.417
+SALVOCHEM     21.40    21.80    21.40    21.60   0.47    322       392584        8.496
+YPL           21.30    21.50    20.80    21.00  -0.47    244       210438        4.421
+                                                      ------    ---------    ---------
+                                                        5599      6229136      164.021
+
+B Category (Equity) scrips traded in Public Market=   18
+
+
+
+N Category (Equity)
+----------------
+Instr Code     Open     High      Low    Close   %Chg  Trade       Volume    Value(Mn)
+
+AAMRANET      96.20   100.20    96.20    97.70   0.93   1179       436521       43.051
+BBSCABLES    102.50   108.00   102.00   105.70   3.12   2057       693465       73.054
+FORTUNE       39.70    39.90    39.60    39.70   0.51    471       359493       14.282
+NAHEEACP      78.00    78.20    72.90    73.40  -5.17   4290      1388061      104.258
+NURANI        18.30    18.80    18.30    18.70   2.19    314       593023       10.988
+OIMEX         65.00    65.80    64.70    65.20   0.15    578       248884       16.231
+PDL           19.10    19.90    19.00    19.60   3.16    208       344185        6.677
+                                                      ------    ---------    ---------
+                                                        9097      4063632      268.541
+
+N Category (Equity) scrips traded in Public Market=    7
+
+
+
+Z Category (Equity)
+----------------
+Instr Code     Open     High      Low    Close   %Chg  Trade       Volume    Value(Mn)
+
+AIL          143.00   143.00   143.00   143.00  10.00     53        64272        9.191
+ALLTEX        12.00    12.00    11.40    11.80   0.00    143       233555        2.762
+ARAMITCEM     29.00    30.90    29.00    30.30   0.00     60        16251        0.495
+AZIZPIPES    144.00   149.80   143.10   149.00   5.08    307        26220        3.852
+BANGAS       165.20   176.20   165.20   175.50   5.85    791        62128       10.707
+BDWELDING     23.70    24.20    23.50    24.00   1.27    189       126664        3.015
+BEACHHATCH    16.80    17.00    16.20    16.70  -0.60    115        96439        1.597
+BIFC          10.80    10.80    10.60    10.70   0.00     20         9443        0.101
+BXSYNTH        8.30     8.90     8.30     8.90   3.49     47        84233        0.739
+CNATEX         8.40     8.70     8.40     8.70   2.35    191       509535        4.382
+DACCADYE       8.90     9.00     8.80     8.90   0.00     40        48576        0.432
+DESHBANDHU    22.30    22.50    21.90    22.40   1.36    216       222403        4.926
+DULAMIACOT    25.80    27.40    25.80    26.50   5.16     31         9407        0.249
+FIRSTFIN      11.80    11.80    11.60    11.60  -0.85     31        50765        0.592
+GOLDENSON     12.80    13.10    12.80    12.80  -0.78     70       110664        1.422
+HAKKANIPUL    59.40    59.40    58.00    58.60   0.86    110        11506        0.672
+ICBIBANK       6.90     7.00     6.80     7.00   2.94     96       237276        1.637
+IMAMBUTTON    34.10    36.00    34.10    35.60   5.33     80        28846        1.026
+JANATAINS     16.00    16.00    15.50    15.70   0.64     13        10601        0.167
+JUTESPINN    103.00   106.00   103.00   103.30  -3.19      2           11        0.001
+KAY&QUE      130.90   130.90   127.00   129.90   3.59    130         7493        0.970
+KPPL          11.90    11.90    11.10    11.30   1.80     64        68492        0.769
+MAKSONSPIN     9.90    10.20     9.90    10.10   1.00    118       146527        1.476
+MEGCONMILK    18.50    20.40    18.50    20.20   8.60    107        66625        1.284
+MEGHNAPET     17.60    18.40    17.40    18.20   8.33    165        71581        1.292
+METROSPIN     11.30    11.80    11.20    11.50   2.68    177       198484        2.266
+MIDASFIN      43.00    45.00    43.00    44.70   4.44    236       140510        6.234
+MITHUNKNIT    27.00    27.10    26.80    27.00   1.12     44        16294        0.439
+MODERNDYE    212.10   212.10   212.00   212.00  -0.33      5           95        0.020
+PLFSL         13.70    13.80    13.60    13.70   0.74    300       529849        7.249
+PRIMEFIN      12.00    12.30    12.00    12.20   2.52     32        25540        0.311
+PROGRESLIF    78.20    78.20    73.00    73.20  -1.35     74         9456        0.698
+RAHIMAFOOD   163.10   163.10   158.10   158.50  -3.59    204        19341        3.098
+SAMATALETH    63.00    63.50    63.00    63.30   1.12     64        10906        0.689
+SAVAREFR     150.90   150.90   145.00   148.30   0.95     21         1145        0.170
+SHURWID       14.30    14.40    14.00    14.10   0.00    108        97150        1.381
+SHYAMPSUG     63.00    64.00    62.00    63.60   1.44     90        17193        1.087
+SINOBANGLA    52.20    53.00    52.00    52.60   1.74    203        68447        3.601
+SONARGAON     15.10    15.10    14.50    14.90   0.68     60        35783        0.530
+SPCERAMICS    16.60    17.10    16.50    17.00   2.41    150       173495        2.931
+STANCERAM    109.00   110.00   109.00   109.80   3.58     79         4684        0.513
+SUNLIFEINS    25.20    25.30    24.50    24.70  -0.80     81        47569        1.179
+TALLUSPIN      9.80     9.90     9.70     9.70  -2.02     91       122879        1.199
+UNITEDAIR      5.40     5.60     5.40     5.60   3.70    278       679919        3.760
+ZEALBANGLA    71.00    72.50    69.50    70.00   3.24     37         8940        0.627
+                                                      ------    ---------    ---------
+                                                        5523      4527192       91.739
+
+Z Category (Equity) scrips traded in Public Market=   45
+
+
+
+MUTUAL FUNDs
+------------
+Instr Code     Open     High      Low    Close   %Chg  Trade       Volume    Value(Mn)
+
+1JANATAMF      6.40     6.50     6.40     6.40  -1.54     79       294720        1.888
+1STPRIMFMF    15.20    15.30    15.10    15.10  -0.66     74       122414        1.856
+ABB1STMF       6.50     6.60     6.40     6.60   3.12    110      1517945        9.914
+AIBL1STIMF     7.90     8.10     7.90     8.00   1.27     24       402000        3.219
+ATCSLGF       11.70    12.20    11.60    12.00   3.45     99       532587        6.356
+CAPMBDBLMF     8.20     8.20     8.10     8.10   0.00     35        81816        0.666
+DBH1STMF       9.30     9.50     9.20     9.40   0.00     16       216068        2.031
+EBL1STMF       9.80     9.80     9.70     9.70  -2.02     36        93345        0.911
+EBLNRBMF       6.40     6.60     6.40     6.60   3.12     10        79202        0.518
+EXIM1STMF      7.00     7.00     7.00     7.00   0.00      2          324        0.002
+FBFIF          5.70     5.70     5.60     5.70   0.00     84       804486        4.574
+GRAMEENS2     14.90    15.80    14.70    15.50   3.33    175       854613       13.008
+GREENDELMF     9.30     9.40     8.90     9.20   1.10     33       445305        4.095
+ICB2NDNRB     10.60    10.60    10.40    10.60   1.92     50       170750        1.807
+ICB3RDNRB      6.30     6.50     6.30     6.40   1.59     25        51307        0.331
+ICBAGRANI1     7.70     8.30     7.70     8.10   5.19    125       231430        1.870
+ICBAMCL2ND     8.20     8.30     8.20     8.20   0.00     18        29676        0.243
+ICBEPMF1S1     7.10     7.10     7.00     7.10   1.43      9        40828        0.289
+ICBSONALI1     8.40     8.40     8.30     8.40   0.00      8        23900        0.200
+IFIC1STMF      6.20     6.30     6.10     6.10   0.00     59       545125        3.348
+IFILISLMF1     7.40     7.80     7.40     7.50   1.35     47       271658        2.045
+LRGLOBMF1      7.90     8.50     7.90     8.30   3.75     31       462527        3.792
+MBL1STMF       8.70     9.30     8.70     9.10   2.25      7        90010        0.821
+NCCBLMF1       8.80     8.90     8.80     8.90   0.00      7        40300        0.358
+NLI1STMF      15.10    15.10    15.00    15.10   0.00     19       115530        1.739
+PF1STMF        7.00     7.10     6.90     7.00   0.00     24        13899        0.098
+PHPMF1         6.30     6.40     6.30     6.40   1.59     29        72096        0.461
+POPULAR1MF     6.20     6.30     6.10     6.20   0.00     62       288632        1.788
+PRIME1ICBA     7.00     7.50     7.00     7.40   5.71     30       118933        0.873
+RELIANCE1     10.70    11.20    10.70    11.00   1.85     29       120327        1.326
+SEBL1STMF     14.30    14.30    14.10    14.20   0.71      6       113500        1.611
+SEMLIBBLSF     7.50     7.60     7.10     7.40   5.71     36       188421        1.392
+SEMLLECMF      7.40     7.50     7.30     7.50   1.35     63       352627        2.628
+TRUSTB1MF      6.50     6.70     6.50     6.70   3.08     75       672388        4.451
+VAMLBDMF1      9.50     9.60     9.50     9.50   2.15      2         5200        0.049
+VAMLRBBF      10.20    10.20    10.20    10.20   0.00      4        50500        0.515
+                                                      ------    ---------    ---------
+                                                        1542      9514389       81.074
+
+MUTUAL FUNDs traded in Public Market              =   36
+
+
+
+CORPORATE BONDs
+---------------
+Instr Code     Open     High      Low    Close   %Chg  Trade       Volume    Value(Mn)
+
+BRACSCBOND  1080.00  1080.00  1080.00  1080.00  -6.09      6          500        0.540
+IBBLPBOND    976.50   986.00   976.50   983.00   0.15     19          200        0.197
+                                                      ------    ---------    ---------
+                                                          25          700        0.737
+
+CORPORATE BONDs traded in Debt Market             =    2
+
+
+
+
+                   PRICES IN SPOT TRANSACTIONS : 2017-12-28
+                   ========================================
+Instr Code     Open     High      Low    Close   %Chg  Trade       Volume    Value(Mn)
+
+ISNLTD        23.90    23.90    22.90    23.20   0.00     49        50685        1.176
+                                                      ------    ---------    ---------
+                                                          49        50685        1.176
+
+Total number of scrips traded in Spot Market      =    1
+
+
+
+
+           PRICES IN SPOT TRANSACTIONS (Treasury BONDs) : 2017-12-28
+           =========================================================
+
+
+
+Total number of BONDs traded in Spot Market       =    0
+
+
+
+
+                    PRICES IN BLOCK TRANSACTIONS : 2017-12-28
+                    =========================================
+
+Instr Code    Max Price    Min Price    Trades    Quantity    Value(In Mn)
+
+AIL              139.00       139.00         2       20000           2.780
+BATBC           3400.00      3400.00         1       15000          51.000
+CITYBANK          52.00        52.00         1     1500000          78.000
+CONFIDCEM        158.80       158.80         1      100000          15.880
+EBL               50.00        50.00         1      400000          20.000
+LANKABAFIN        48.50        48.50         1      300000          14.550
+OLYMPIC          315.00       315.00         1     3341863        1052.687
+PTL               42.50        42.50         1       50000           2.125
+RSRMSTEEL         63.20        63.20         1       13000           0.822
+                                        ------    --------    ------------
+                                            10     5739863        1237.843
+
+Total number of scrips traded in Block            =    9
+
+
+
+
+           TOP 10 GAINERS (Based on Open Price and Last Trade Price)
+           =========================================================
+
+Instr Code        Open        High         Low        Last     Deviation
+
+MICEMENT         83.90       92.40       83.50       92.40        10.131
+LRGLOBMF1         7.90        8.50        7.90        8.50         7.595
+PTL              42.10       45.50       41.70       45.20         7.363
+PRIME1ICBA        7.00        7.50        7.00        7.50         7.143
+MBL1STMF          8.70        9.30        8.70        9.30         6.897
+MJLBD           103.40      109.70      103.40      109.40         5.803
+TAKAFULINS       24.20       25.60       24.20       25.60         5.785
+NTLTUBES        124.50      133.00      124.50      131.70         5.783
+PADMAOIL        227.30      240.00      227.30      239.90         5.543
+ECABLES         191.80      202.30      191.20      202.30         5.474
+
+
+
+
+                 TOP 10 GAINERS (Based on YCP and Close Price)
+                 =============================================
+
+Instr Code         YCP        High         Low       CLOSE        %CHG
+
+PRIME1ICBA        7.00        7.50        7.00        7.40         5.714
+SEMLIBBLSF        7.00        7.60        7.10        7.40         5.714
+FINEFOODS        33.70       36.00       34.00       35.60         5.638
+NTLTUBES        125.30      133.00      124.50      132.30         5.587
+IPDC             47.60       50.40       48.10       50.10         5.252
+ECABLES         189.70      202.30      191.20      199.60         5.219
+ICBAGRANI1        7.70        8.30        7.70        8.10         5.195
+PADMAOIL        227.20      240.00      227.30      239.00         5.194
+RUPALIBANK       63.00       67.20       63.90       66.20         5.079
+AAMRATECH        31.80       33.50       32.20       33.30         4.717
+
+
+
+
+           TOP 10 LOSERS (Based on Open Price and Last Trade Price)
+           ========================================================
+
+Instr Code        Open        High         Low        Last     Deviation
+
+NAHEEACP         78.00       78.20       72.90       73.50        -5.769
+KPPL             11.90       11.90       11.10       11.30        -5.042
+PRAGATILIF      119.80      119.80      112.10      113.90        -4.925
+EASTERNINS       29.90       29.90       28.50       28.50        -4.682
+ALIF             26.10       26.70       24.90       25.00        -4.215
+ISNLTD           23.90       23.90       22.90       22.90        -4.184
+ALLTEX           12.00       12.00       11.40       11.50        -4.167
+SAVAREFR        150.90      150.90      145.00      145.00        -3.910
+OLYMPIC         295.00      295.00      284.00      285.00        -3.390
+BANKASIA         23.70       23.70       22.90       22.90        -3.376
+
+
+
+
+                 TOP 10 LOSERS (Based on YCP and Close Price)
+                 ============================================
+
+Instr Code         YCP        High         Low       CLOSE        %CHG
+
+EMERALDOIL       19.40       19.40       17.90       18.20        -6.186
+NAHEEACP         77.40       78.20       72.90       73.40        -5.168
+RAHIMAFOOD      164.40      163.10      158.10      158.50        -3.589
+JUTESPINN       106.70      106.00      103.00      103.30        -3.187
+ALIF             25.90       26.70       24.90       25.10        -3.089
+TALLUSPIN         9.90        9.90        9.70        9.70        -2.020
+EBL1STMF          9.90        9.80        9.70        9.70        -2.020
+OLYMPIC         294.10      295.00      284.00      288.30        -1.972
+RELIANCINS       55.80       55.60       54.10       54.70        -1.971
+KDSALTD          67.80       68.70       66.40       66.60        -1.770
+
+
+  
+Note:
+
+    Issues Advanced; Issues declined; Issues Unchanged in this market summary file are based on CP (closing price) whereas the same are calculated on DSE website based on LTP (last trade price) during trading session.
+    CP is defined as "The closing price for a security shall be determined as per the weighted average price of all the trades in the last 30 (thirty) minutes before the closing session. If there is no trade during that specified time, the weighted average price of maximum 20 (twenty) number of trades preceding the above 30 (thirty) minutes shall be taken for determination of closing price".
+
+ 
+   
+
+    <h5> 
+  <p>Dhaka Stock Exchange Ltd.</p>  
+<p>STOCK EXCHANGE BUILDING,</p><p>9/F MOTIJHEEL C/A, DHAKA BANGLADESH</p>
+<p>Phone: 88-02-9564601, 9576210-18, FAX: +88-02-9564727, +88-02-9569755</p>
+<p>Email: dse@bol-online.com, Web: http://www.dsebd.org/</p>
+     </h5>
+     </h5>
+     <p align="center">All Right Reserved By: Md. Asifuzzaman Jishan, ID-143014010, Department of CSE, ULAB</p>
+</body>
+</html>

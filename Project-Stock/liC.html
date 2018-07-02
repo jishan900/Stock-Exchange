@@ -1,0 +1,1997 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<link href="top10g.css" rel="stylesheet" type="text/css">
+<style>
+	#container
+	{
+		width: 500px;
+		height: 500px;
+		border-radius: 10px;
+		border: 2px solid black;
+		margin: 50px auto;
+		padding: 20px;
+	}
+	h2{
+		text-align: center;
+		color: royalblue;
+	}
+</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">	
+	</script>
+
+	<script src="jquery-1.7.1.min.js"></script>
+
+	<script>
+		$(document).ready(function()
+		{
+			$.getJSON('https://www.google.com/finance/info?q=NASDAQ:AAPL&callback=?',function(data){
+                     $('#nifty').text(data[0].1);
+                     $('#down').text(data[0].c)
+			});
+
+			$.getJSON('https://www.google.com/finance/info?q=INDEXBOM:SENSEX&callback=?',function(data){
+                     $('#bse').text(data[0].1);
+                     $('#bsedown').text(data[0].c)
+			});
+		});
+	</script>
+	
+	<script language=javascript>
+		  document.write('Today is '+Date()+'<br />');
+		  function doTheThing(){
+		  setTimeout(function(){
+		  location.reload();
+		},500);
+	}
+	</script>
+
+
+<meta http-equiv="refresh" content="8">
+</head>
+
+<body background="FreeGreatPicture.com-1380-background-color.jpg">
+<table width="1254" border="1">
+  <tr>
+    <td width="236" height="141"><img src="dse-logo.jpg" width="236" height="127" alt=""/></td>
+    <td width="1002">
+    <h1>Dhaka Stock Exchange Ltd.</h1></td>
+  </tr>
+</table>
+<table width="1255" style="margin-left:0em;">
+    <tr>
+    <td width="1298" height="62">
+    <div id="navigation">
+    <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/project.html">Home</a></li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">About Us</a>
+      <ul>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">Introduction to DSE</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mi&vi.html">Mission and Vision</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/glance.html">DSE at a Glance</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/bod.html">Board of Directors</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mng.html">DSE Management</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/legal.html">Legal Control</a></li>
+       </li>
+        </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Market Updates</a>
+      <ul style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Top 10 Gainer</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10l.html">Top 10 Loser</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/stat.html">Market Statistics</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Rules and Regulations</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Listing Regulation</a></li>
+        <li style="width:200px;"><a href="http://www.dse.com.bd/pdf/margin_rules.pdf">Margin Rules</a></li>
+      </ul>
+      </li style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Companies Info</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Listed Company</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/ager.html">AGM/EGM and Record Date</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/c-us.html">Contact Us</a></li>
+    </ul>
+    </div></td>
+    </tr>
+    </table>
+<h2>Company Listing </h2>
+<table width="1248" border="1">
+  <tr>
+    <td width="416" align="center">A</td>
+    <td width="416" align="center">B</td>
+    <td width="416" align="center">C</td>
+  </tr>
+  <tr>
+    <td><table width="407">
+      <tbody>
+        <tr>
+          <td width="358"><a href="http://www.dse.com.bd/displayCompany.php?name=AAMRANET">AAMRANET</a> (aamra networks limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AAMRATECH">AAMRATECH</a> (aamra technologies limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ABB1STMF">ABB1STMF</a> (AB Bank 1st Mutual fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ABBANK">ABBANK</a> (AB Bank Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ACI">ACI</a> (ACI  Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ACIFORMULA">ACIFORMULA</a> (ACI Formulations Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ACMELAB">ACMELAB</a> (The ACME Laboratories Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ACTIVEFINE">ACTIVEFINE</a> (Active Fine Chemicals Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AFCAGRO">AFCAGRO</a> (AFC Agro Biotech Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AFTABAUTO">AFTABAUTO</a> (Aftab Automobiles Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AGNISYSL">AGNISYSL</a> (Agni Systems Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AGRANINS">AGRANINS</a> (Agrani Insurance Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AIBL1STIMF">AIBL1STIMF</a> (AIBL 1st Islamic Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AIL">AIL</a> (Alif Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AL-HAJTEX">AL-HAJTEX</a> (Al-Haj Textile Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ALARABANK">ALARABANK</a> (Al-Arafah Islami Bank Ltd )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ALIF">ALIF</a> (Alif Manufacturing Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ALLTEX">ALLTEX</a> (Alltex Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AMANFEED">AMANFEED</a> (Aman Feed Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AMBEEPHA">AMBEEPHA</a> (Ambee Pharmaceuticals  Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AMCL(PRAN)">AMCL(PRAN)</a> (Agricultural Marketing Company Ltd. (Pran)  )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ANLIMAYARN">ANLIMAYARN</a> (Anlimayarn Deying Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ANWARGALV">ANWARGALV</a> (Anwar Galvanizing Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=APEXFOODS">APEXFOODS</a> (Apex Foods Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=APEXFOOT">APEXFOOT</a> (Apex Footwear Limited. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=APEXSPINN">APEXSPINN</a> (Apex Spinning &amp; Knitting Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=APEXTANRY">APEXTANRY</a> (Apex Tannery Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=APOLOISPAT">APOLOISPAT</a> (Appollo Ispat Complex Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ARAMIT">ARAMIT</a> (Aramit Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ARAMITCEM">ARAMITCEM</a> (Aramit Cement Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ARGONDENIM">ARGONDENIM</a> (Argon Denims Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ASIAINS">ASIAINS</a> (Asia Insurance Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ASIAPACINS">ASIAPACINS</a> (Asia Pacific General Insurance Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ATCSLGF">ATCSLGF</a> (Asian Tiger Sandhani Life Growth Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ATLASBANG">ATLASBANG</a> (Atlas Bangladesh Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=AZIZPIPES">AZIZPIPES</a> (Aziz Pipes Ltd. )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="406">
+      <tbody>
+        <tr>
+          <td width="392"><a href="http://www.dse.com.bd/displayCompany.php?name=BANGAS">BANGAS</a> (Bangas Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BANKASIA">BANKASIA</a> (Bank Asia Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BARKAPOWER">BARKAPOWER</a> (Baraka Power Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BATASHOE">BATASHOE</a> (Bata Shoe Company (Bangladesh) Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BATBC">BATBC</a> (British American Tobacco bangladesh Company Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BAYLEASING">BAYLEASING</a> (Bay Leasing &amp; Investment Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BBS">BBS</a> (Bangladesh Building Systems Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BBSCABLES">BBSCABLES</a> ( BBS Cables Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BDAUTOCA">BDAUTOCA</a> (Bangladesh Autocars Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BDCOM">BDCOM</a> (BDCOM Online Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BDFINANCE">BDFINANCE</a> (Bangladesh Finance and Investment Co.Ltd )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BDLAMPS">BDLAMPS</a> (Bangladesh Lamps Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BDSERVICE">BDSERVICE</a> (Bangladesh Services Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BDTHAI">BDTHAI</a> (Bd.Thai Aluminium Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BDWELDING">BDWELDING</a> (Bangladesh Welding Electrodes Ltd.  )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BEACHHATCH">BEACHHATCH</a> (Beach Hatchery Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BEACONPHAR">BEACONPHAR</a> (Beacon Pharmaceuticals Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BENGALWTL">BENGALWTL</a> (Bengal Windsor Thermoplastics Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BERGERPBL">BERGERPBL</a> (Berger Paints Bangladesh Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BEXIMCO">BEXIMCO</a> (Bangladesh Export Import Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BGIC">BGIC</a> (Bangladesh General Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BIFC">BIFC</a> (Bangladesh Industrial Fin. Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BNICL">BNICL</a> (Bangladesh National Insurance Company Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BRACBANK">BRACBANK</a> (BRAC Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BRACSCBOND">BRACSCBOND</a> (Sub 25% Convertible Bonds of BRAC Bank L )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BSC">BSC</a> (Bangladesh Shipping Corporation )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BSCCL">BSCCL</a> (Bangladesh Submarine Cable Company Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BSRMLTD">BSRMLTD</a> (Bangladesh Steel Re-Rolling Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BSRMSTEEL">BSRMSTEEL</a> (BSRM Steels Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BXPHARMA">BXPHARMA</a> (Beximco Pharmaceuticals Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=BXSYNTH">BXSYNTH</a> (Beximco Synthetics Ltd. )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="396" height="478">
+      <tbody>
+        <tr>
+          <td width="339"><a href="http://www.dse.com.bd/displayCompany.php?name=CAPMBDBLMF">CAPMBDBLMF</a> (CAPM BDBL Mutual Fund 01 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=CENTRALINS">CENTRALINS</a> (Central Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=CENTRALPHL">CENTRALPHL</a> (Central Pharmaceuticals Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=CITYBANK">CITYBANK</a> (The City Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=CITYGENINS">CITYGENINS</a> (City General Insurance Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=CNATEX">CNATEX</a> (C &amp; A Textiles Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=CONFIDCEM">CONFIDCEM</a> (Confidence Cement Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=CONTININS">CONTININS</a> (Continental Insurance Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=CVOPRL">CVOPRL</a> (CVO Petrochemical Refinery Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">D</td>
+    <td align="center">E</td>
+    <td align="center">F</td>
+  </tr>
+  <tr>
+    <td><table width="409">
+      <tbody>
+        <tr>
+          <td width="351"><a href="http://www.dse.com.bd/displayCompany.php?name=DACCADYE">DACCADYE</a> (The Dacca Dyeing &amp; Manufacturing Co.Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DAFODILCOM">DAFODILCOM</a> (Daffodil Computers Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DBH">DBH</a> (Delta Brac Housing Finance Corp. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DBH1STMF">DBH1STMF</a> (DBH First Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DEBARACEM">DEBARACEM</a> (Aramit Cement Ltd.(Deb-14%) )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DEBBDLUGG">DEBBDLUGG</a> (Bangladesh Luggage Ind. Ltd.(Deb-14%) )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DEBBDWELD">DEBBDWELD</a> (BD Welding Electrodes Ltd.(Deb-15%) )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DEBBDZIPP">DEBBDZIPP</a> (Bangladesh Zipper Ind. Ltd.(Deb-14%) )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DEBBXDENIM">DEBBXDENIM</a> (Beximco Denims Ltd.(Deb-14%) )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DEBBXFISH">DEBBXFISH</a> (Beximco Fisheries Ltd.(Deb-14%) )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DEBBXKNI">DEBBXKNI</a> (Beximco Knitting Ltd.(Deb-14%) )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DEBBXTEX">DEBBXTEX</a> (Beximco Textiles Ltd.(Deb-14%) )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DELTALIFE">DELTALIFE</a> (Delta Life Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DELTASPINN">DELTASPINN</a> (Delta Spinners Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DESCO">DESCO</a> (Dhaka Electric Supply Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DESHBANDHU">DESHBANDHU</a> (Deshbandhu Polymer Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DHAKABANK">DHAKABANK</a> (Dhaka Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DHAKAINS">DHAKAINS</a> (Dhaka Insurance Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DOREENPWR">DOREENPWR</a> (Doreen Power Generations and Systems Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DSHGARME">DSHGARME</a> (Desh Garmants Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DSSL">DSSL</a> (Dragon Sweater and Spinning Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DULAMIACOT">DULAMIACOT</a> (Dulamia Cotton Spinning Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=DUTCHBANGL">DUTCHBANGL</a> (Dutch-Bangla Bank Ltd. )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="410" height="522">
+      <tbody>
+        <tr>
+          <td width="375"><a href="http://www.dse.com.bd/displayCompany.php?name=EASTERNINS">EASTERNINS</a> (Eastern Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=EASTLAND">EASTLAND</a> (Eastland Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=EASTRNLUB">EASTRNLUB</a> (Eastern Lubricants Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=EBL">EBL</a> (Eastern Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=EBL1STMF">EBL1STMF</a> (EBL First Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=EBLNRBMF">EBLNRBMF</a> (EBL NRB Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ECABLES">ECABLES</a> (Eastern Cables Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=EHL">EHL</a> (Eastern Housing Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=EMERALDOIL">EMERALDOIL</a> (Emerald Oil Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ENVOYTEX">ENVOYTEX</a> (Envoy Textiles Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ETL">ETL</a> (Evince Textiles Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=EXIM1STMF">EXIM1STMF</a> (EXIM Bank 1st Mutual Fund  )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=EXIMBANK">EXIMBANK</a> (Export Import (Exim) Bank of Bangladesh Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="402" height="509">
+      <tbody>
+        <tr>
+          <td width="341"><a href="http://www.dse.com.bd/displayCompany.php?name=FAMILYTEX">FAMILYTEX</a> (Familytex (BD) Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FARCHEM">FARCHEM</a> (Far Chemical Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FAREASTFIN">FAREASTFIN</a> (Fareast Finance &amp; Investment Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FAREASTLIF">FAREASTLIF</a> (Fareast Islami Life Insurance Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FASFIN">FASFIN</a> (FAS Finance &amp; Investment Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FBFIF">FBFIF</a> (First Bangladesh Fixed Income Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FEDERALINS">FEDERALINS</a> (Federal Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FEKDIL">FEKDIL</a> (Far East Knitting &amp; Dyeing Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FINEFOODS">FINEFOODS</a> (Fine Foods Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FIRSTFIN">FIRSTFIN</a> (First Finance Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FIRSTSBANK">FIRSTSBANK</a> (First Security Islami Bank Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FORTUNE">FORTUNE</a> (Fortune Shoes Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FUWANGCER">FUWANGCER</a> (Fu-Wang Ceramic Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=FUWANGFOOD">FUWANGFOOD</a> (Fu Wang Food Ltd. )</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">G</td>
+    <td align="center">H</td>
+    <td align="center">I</td>
+  </tr>
+  <tr>
+    <td><table width="408">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GBBPOWER">GBBPOWER</a> (GBB Power Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GEMINISEA">GEMINISEA</a> (Gemini Sea Food Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GENNEXT">GENNEXT</a> (Generation Next Fashions Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GHAIL">GHAIL</a> (Golden Harvest Agro Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GHCL">GHCL</a> (Global Heavy Chemicals Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GLAXOSMITH">GLAXOSMITH</a> (GlaxoSmithKline(GSK) Bangladesh Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GLOBALINS">GLOBALINS</a> (Global Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GOLDENSON">GOLDENSON</a> (Golden Son Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GP">GP</a> (Grameenphone Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GPHISPAT">GPHISPAT</a> (GPH Ispat Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GQBALLPEN">GQBALLPEN</a> (GQ Ball Pen Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GRAMEENS2">GRAMEENS2</a> (Grameen One : Scheme Two )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GREENDELMF">GREENDELMF</a> (Green Delta Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GREENDELT">GREENDELT</a> (Green Delta Insurance Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=GSPFINANCE">GSPFINANCE</a> (GSP Finance Company (Bangladesh) Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="407" height="257">
+      <tbody>
+        <tr>
+          <td width="306"><a href="http://www.dse.com.bd/displayCompany.php?name=HAKKANIPUL">HAKKANIPUL</a> (Hakkani Pulp &amp; Paper Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=HEIDELBCEM">HEIDELBCEM</a> (Heidelberg Cement Bangladesh Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=HFL">HFL</a> (Hamid Fabrics Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=HRTEX">HRTEX</a> (H.R.Textile Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=HWAWELLTEX">HWAWELLTEX</a> (Hwa Well Textiles (BD) Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="405">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=IBBLPBOND">IBBLPBOND</a> (IBBL Mudaraba Perpetual Bond )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=IBNSINA">IBNSINA</a> (The IBN SINA  Pharmaceutical Industry Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ICB">ICB</a> (Investment Corporation Of Bangladesh Limited  )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ICB2NDNRB">ICB2NDNRB</a> (ICB AMCL 2nd NRB Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ICB3RDNRB">ICB3RDNRB</a> (ICB AMCL Third NRB Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ICBAGRANI1">ICBAGRANI1</a> (ICB AMCL First Agrani Bank Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ICBAMCL2ND">ICBAMCL2ND</a> (ICB AMCL Second Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ICBEPMF1S1">ICBEPMF1S1</a> (ICB Employees Provident MF 1: Scheme 1 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ICBIBANK">ICBIBANK</a> (ICB Islamic Bank Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ICBSONALI1">ICBSONALI1</a> (ICB AMCL Sonali Bank Limited 1st Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=IDLC">IDLC</a> (IDLC Finance Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=IFADAUTOS">IFADAUTOS</a> (IFAD Autos Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=IFIC">IFIC</a> (IFIC Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=IFIC1STMF">IFIC1STMF</a> (IFIC Bank 1st Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=IFILISLMF1">IFILISLMF1</a> (IFIL Islamic Mutual Fund-1 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ILFSL">ILFSL</a> (International Leasing &amp; Financial Services Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=IMAMBUTTON">IMAMBUTTON</a> (Imam Button Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=INTECH">INTECH</a> (Intech  Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=IPDC">IPDC</a> (IPDC Finance Limited  )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ISLAMIBANK">ISLAMIBANK</a> (Islami Bank Bangladesh Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ISLAMICFIN">ISLAMICFIN</a> (Islamic Finance &amp; Investment Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ISLAMIINS">ISLAMIINS</a> (Islami Insurance Bangladesh Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ISNLTD">ISNLTD</a> (Information Services Network Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ITC">ITC</a> (IT Consultants Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">J</td>
+    <td align="center">K</td>
+    <td align="center">L</td>
+  </tr>
+  <tr>
+    <td><table width="407">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=JAMUNABANK">JAMUNABANK</a> (Jamuna Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=JAMUNAOIL">JAMUNAOIL</a> (Jamuna Oil Company Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=JANATAINS">JANATAINS</a> (Janata Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=JMISMDL">JMISMDL</a> (JMI Syringes &amp; Medical Devices Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=JUTESPINN">JUTESPINN</a> (Jute Spinners Ltd. )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="408">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=KARNAPHULI">KARNAPHULI</a> (Karnaphuli Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=KAY&QUE">KAY&amp;QUE</a> (Kay &amp; Que (Bangladesh) Ltd.  )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=KBPPWBIL">KBPPWBIL</a> (Khan Brothers PP Woven Bag Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=KDSALTD">KDSALTD</a> (KDS Accessories Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=KEYACOSMET">KEYACOSMET</a> (Keya Cosmetics Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=KOHINOOR">KOHINOOR</a> (Kohinoor Chemicals Company (Bangladesh) Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=KPCL">KPCL</a> (Khulna Power Company Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=KPPL">KPPL</a> (Khulna Printing &amp; Packaging Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="404" height="187">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=LAFSURCEML">LAFSURCEML</a> (LAFARGE SURMA CEMENT LTD. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=LANKABAFIN">LANKABAFIN</a> (LankaBangla Finance Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=LEGACYFOOT">LEGACYFOOT</a> (Legacy Footwear Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=LIBRAINFU">LIBRAINFU</a> (Libra Infusions Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=LINDEBD">LINDEBD</a> (Linde Bangladesh Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=LRGLOBMF1">LRGLOBMF1</a> (LR Global Bangladesh Mutual Fund One )</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">M</td>
+    <td align="center">N</td>
+    <td align="center">O</td>
+  </tr>
+  <tr>
+    <td><table width="409">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MAKSONSPIN">MAKSONSPIN</a> (Maksons Spinning Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MALEKSPIN">MALEKSPIN</a> (Malek Spinning Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MARICO">MARICO</a> (Marico Bangladesh Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MATINSPINN">MATINSPINN</a> (Matin Spinning Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MBL1STMF">MBL1STMF</a> (MBL 1st Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MEGCONMILK">MEGCONMILK</a> (Meghna Condensed Milk Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MEGHNACEM">MEGHNACEM</a> (Meghna Cement Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MEGHNALIFE">MEGHNALIFE</a> (Meghna Life Insurance Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MEGHNAPET">MEGHNAPET</a> (Meghna Pet Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MERCANBANK">MERCANBANK</a> (Mercantile Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MERCINS">MERCINS</a> (Mercantile Insurance Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=METROSPIN">METROSPIN</a> (Metro Spinning Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MHSML">MHSML</a> (Mozaffar Hossain Spinning Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MICEMENT">MICEMENT</a> (M.I. Cement Factory Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MIDASFIN">MIDASFIN</a> (MIDAS Financing Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MIRACLEIND">MIRACLEIND</a> (Miracle Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MITHUNKNIT">MITHUNKNIT</a> (Mithun Knitting and Dyeing Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MJLBD">MJLBD</a> (MJL Bangladesh Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MODERNDYE">MODERNDYE</a> (Modern Dyeing &amp; Screen Printing Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MONNOCERA">MONNOCERA</a> (Monno Ceramic Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MONNOSTAF">MONNOSTAF</a> (Monno Jute Stafflers Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MPETROLEUM">MPETROLEUM</a> (Meghna Petroleum Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=MTB">MTB</a> (Mutual Trust Bank Ltd. )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="410" height="482">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NAHEEACP">NAHEEACP</a> (Nahee Aluminum Composite Panel Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NATLIFEINS">NATLIFEINS</a> (National Life Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NAVANACNG">NAVANACNG</a> (Navana CNG Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NBL">NBL</a> (National Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NCCBANK">NCCBANK</a> (National Credit and Commerce Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NCCBLMF1">NCCBLMF1</a> (NCCBL Mutual Fund-1 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NFML">NFML</a> (National Feed Mill Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NHFIL">NHFIL</a> (National Housing Fin. and Inv. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NITOLINS">NITOLINS</a> (Nitol Insurance Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NLI1STMF">NLI1STMF</a> (NLI First Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NORTHERN">NORTHERN</a> (Northern Jute Manufacturing Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NORTHRNINS">NORTHRNINS</a> (Northern General Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NPOLYMAR">NPOLYMAR</a> (National Polymer Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NTC">NTC</a> (National Tea Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NTLTUBES">NTLTUBES</a> (National Tubes Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=NURANI">NURANI</a> (Nurani Dyeing &amp; Sweater Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="407" height="388">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=OAL">OAL</a> (Olympic Accessories Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=OIMEX">OIMEX</a> (Oimex Electrode Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=OLYMPIC">OLYMPIC</a> (Olympic Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ONEBANKLTD">ONEBANKLTD</a> (One Bank Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ORIONINFU">ORIONINFU</a> (Orion Infusion Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ORIONPHARM">ORIONPHARM</a> (Orion Pharma Ltd. )</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+</table>
+<table width="1248" border="1">
+  <tr>
+    <td width="409" align="center">P</td>
+    <td width="411" align="center">Q</td>
+    <td width="406" align="center">R</td>
+  </tr>
+  <tr>
+    <td><table width="402">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PADMALIFE">PADMALIFE</a> (Padma Islami Life Insurance Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PADMAOIL">PADMAOIL</a> (Padma Oil Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PARAMOUNT">PARAMOUNT</a> (Paramount Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PDL">PDL</a> (Pacific Denims Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PENINSULA">PENINSULA</a> (The Peninsula Chittagong Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PEOPLESINS">PEOPLESINS</a> (Peoples Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PF1STMF">PF1STMF</a> (Phoenix Finance 1st Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PHARMAID">PHARMAID</a> (Pharma Aids )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PHENIXINS">PHENIXINS</a> (Phoenix Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PHOENIXFIN">PHOENIXFIN</a> (Phoenix Finance and Investments Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PHPMF1">PHPMF1</a> (PHP First Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PIONEERINS">PIONEERINS</a> (Pioneer Insurance Comapny Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PLFSL">PLFSL</a> (Peoples Leasing and Fin. Services Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=POPULAR1MF">POPULAR1MF</a> (Popular Life First Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=POPULARLIF">POPULARLIF</a> (Popular Life Insurance Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=POWERGRID">POWERGRID</a> (Power Grid Company of Bangladesh Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PRAGATIINS">PRAGATIINS</a> (Pragati Insurance Ltd )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PRAGATILIF">PRAGATILIF</a> (Pragati Life Insurance Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PREMIERBAN">PREMIERBAN</a> (Premier Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PREMIERCEM">PREMIERCEM</a> (Premier Cement Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PREMIERLEA">PREMIERLEA</a> (Premier Leasing &amp; Finance Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PRIME1ICBA">PRIME1ICBA</a> (Prime Bank 1st ICB AMCL Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PRIMEBANK">PRIMEBANK</a> (Prime Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PRIMEFIN">PRIMEFIN</a> (Prime Finance &amp; Investment Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PRIMEINSUR">PRIMEINSUR</a> (Prime Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PRIMELIFE">PRIMELIFE</a> (Prime Islami Life Insurance Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PRIMETEX">PRIMETEX</a> (Prime Textile Spinning Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PROGRESLIF">PROGRESLIF</a> (Progressive Life Insurance Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PROVATIINS">PROVATIINS</a> (Provati Insurance Company Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PTL">PTL</a> (Paramount Textile Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PUBALIBANK">PUBALIBANK</a> (Pubali Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=PURABIGEN">PURABIGEN</a> (Purabi Gen. Insurance Company Ltd. )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><a href="http://www.dse.com.bd/displayCompany.php?name=QSMDRYCELL">QSMDRYCELL</a> (Quasem Drycells Ltd. )</td>
+    <td><table width="400">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RAHIMAFOOD">RAHIMAFOOD</a> (Rahima Food Corporation Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RAHIMTEXT">RAHIMTEXT</a> (Rahim Textile Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RAKCERAMIC">RAKCERAMIC</a> (RAK Ceramics (Bangladesh) Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RANFOUNDRY">RANFOUNDRY</a> (Rangpur Foundry Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RDFOOD">RDFOOD</a> (Rangpur Dairy &amp; Food Products Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RECKITTBEN">RECKITTBEN</a> (Reckitt Benckiser(Bd.)Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=REGENTTEX">REGENTTEX</a> (Regent Textile Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RELIANCE1">RELIANCE1</a> ("Reliance One" the first scheme of Reliance Insurance Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RELIANCINS">RELIANCINS</a> (Reliance Insurance Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RENATA">RENATA</a> (Renata Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RENWICKJA">RENWICKJA</a> (Renwick Jajneswar &amp; Co (Bd) Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=REPUBLIC">REPUBLIC</a> (Republic Insurance Company Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RNSPIN">RNSPIN</a> (R.N. Spinning Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RSRMSTEEL">RSRMSTEEL</a> (Ratanpur Steel Re-Rolling Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RUPALIBANK">RUPALIBANK</a> (Rupali Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RUPALIINS">RUPALIINS</a> (Rupali Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=RUPALILIFE">RUPALILIFE</a> (Rupali Life Insurance Company Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">S</td>
+    <td align="center">T</td>
+    <td align="center">U</td>
+  </tr>
+  <tr>
+    <td><table width="401">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SAFKOSPINN">SAFKOSPINN</a> (Safko Spinnings Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SAIFPOWER">SAIFPOWER</a> (SAIF Powertec Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SAIHAMCOT">SAIHAMCOT</a> (Saiham Cotton Mills Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SAIHAMTEX">SAIHAMTEX</a> (Saiham Textile Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SALAMCRST">SALAMCRST</a> (S. Alam Cold Rolled Steels Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SALVOCHEM">SALVOCHEM</a> (Salvo Chemical Industry Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SAMATALETH">SAMATALETH</a> (Samata Leather Complex Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SAMORITA">SAMORITA</a> (Samorita Hospital Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SANDHANINS">SANDHANINS</a> (Sandhani Life Insurance Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SAPORTL">SAPORTL</a> (Summit Alliance Port Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SAVAREFR">SAVAREFR</a> (Savar Refractories Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SEBL1STMF">SEBL1STMF</a> (Southeast Bank 1st Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SEMLIBBLSF">SEMLIBBLSF</a> (SEML IBBL Shariah Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SEMLLECMF">SEMLLECMF</a> (SEML Lecture Equity Management Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SHAHJABANK">SHAHJABANK</a> (Shahjalal Islami Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SHASHADNIM">SHASHADNIM</a> (Shasha Denims Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SHEPHERD">SHEPHERD</a> (Shepherd Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SHURWID">SHURWID</a> (Shurwid Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SHYAMPSUG">SHYAMPSUG</a> (Shyampur Sugar Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SIBL">SIBL</a> (Social Islami Bank Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SIMTEX">SIMTEX</a> (Simtex Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SINGERBD">SINGERBD</a> (Singer Bangladesh Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SINOBANGLA">SINOBANGLA</a> (Sinobangla Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SONALIANSH">SONALIANSH</a> (Sonali Aansh Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SONARBAINS">SONARBAINS</a> (Sonar Bangla Insurance Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SONARGAON">SONARGAON</a> (Sonargaon Textiles Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SOUTHEASTB">SOUTHEASTB</a> (Southeast Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SPCERAMICS">SPCERAMICS</a> (Shinepukur Ceramics Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SPCL">SPCL</a> (Shahjibazar Power Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SQUARETEXT">SQUARETEXT</a> (Square Textile Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SQURPHARMA">SQURPHARMA</a> (Square Pharmaceuticals Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=STANCERAM">STANCERAM</a> (Standard Ceramic Industries Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=STANDARINS">STANDARINS</a> (Standard Insurance Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=STANDBANKL">STANDBANKL</a> (Standard Bank Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=STYLECRAFT">STYLECRAFT</a> (Stylecraft Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SUMITPOWER">SUMITPOWER</a> (Summit Power Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=SUNLIFEINS">SUNLIFEINS</a> (Sunlife Insurance Company Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="405">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T05Y0715">T05Y0715</a> (5 Years BGT Bonds Issued on 21.07.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T05Y0815">T05Y0815</a> (5 Years BGT Bonds Issued on 18.08.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0117">T10Y0117</a> (10 Years 8.5% BGT Bond Issued 10.01.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0118">T10Y0118</a> (10 Years BGT Bond Issued 02.01.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0119">T10Y0119</a> (10 Years BGT Bond Issued 07.01.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0121">T10Y0121</a> (10 years BGT Bond Issued 05.01.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0214">T10Y0214</a> (10 Years 8.5% BGT Bond Issued 090204 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0215">T10Y0215</a> (10 Years 8.5% BGT Bond Issued 070205 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0216">T10Y0216</a> (10 Years 8.5% BGT Bond Issued 13022006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0217">T10Y0217</a> (10 Years 8.5% BGT Bond Issued 07.02.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0218">T10Y0218</a> (10 Years BGT Bond Issued 06.02.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0219">T10Y0219</a> (10 Years BGT Bond Issued 04.02.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0220">T10Y0220</a> (10 years BGT Bond issued on 03.02.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0221">T10Y0221</a> (10 years BGT Bond Issued 02.02.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0317">T10Y0317</a> (10 Years 8.5% BGT Bond Issued 07.03.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0318">T10Y0318</a> (10 Years BGT Bond Issued 05.03.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0319">T10Y0319</a> (10 Years BGT Bond Issued 04.03.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0320">T10Y0320</a> (10 years BGT Bond issued on 03.03.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0321">T10Y0321</a> (10 years BGT Bond Issued 02.03.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0414">T10Y0414</a> (10 Years 8.5% BGT Bond Issued 050404 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0415">T10Y0415</a> (10 Years 8.5% BGT Bond Issued 040405 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0416">T10Y0416</a> (10 Years 8.5% BGT Bond Issued 10042006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0418">T10Y0418</a> (10 Years BGT Bond Issued 02.04.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0419">T10Y0419</a> (10 Years BGT Bond Issued 08.04.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0420">T10Y0420</a> (10 years BGT Bond Issued on 07.04.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0421">T10Y0421</a> (10 years BGT Bond Issued 06.04.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0517">T10Y0517</a> (10 Years BGT Bond Issued 09.05.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0518">T10Y0518</a> (10 Years BGT Bond Issued 07.05.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0519">T10Y0519</a> (10 Years BGT Bond Issued 06.05.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0520">T10Y0520</a> (10 years BGT Bond Issued 05.05.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0521">T10Y0521</a> (10 years BGT Bond Issued 04.05.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0614">T10Y0614</a> (10 Years 8.5% BGT Bond Issued 070604 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0615">T10Y0615</a> (10 Years 8.5% BGT Bond Issued 060605 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0616">T10Y0616</a> (10 Years 8.5% BGT Bond Issued 12062006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0617">T10Y0617</a> (10 Years BGT Bond Issued 06.06.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0618">T10Y0618</a> (10 Years BGT Bond Issued 04.06.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0619">T10Y0619</a> (10 Years BGT Bond Issued 03.06.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0620">T10Y0620</a> (10 Years BGT Bond Issued 02.06.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0621">T10Y0621</a> (10 years BGT Bond Issued 08.06.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0717">T10Y0717</a> (10 Years BGT Bond Issued 04.07.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0718">T10Y0718</a> (10 Year BGT Bond Issued 02.07.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0719">T10Y0719</a> (10 Years BGT Bond Issued 08.07.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0720">T10Y0720</a> (10 Years BGT Bond Issued 07.07.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0721">T10Y0721</a> (10 Years BGT Bond Issued 13.07.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0814">T10Y0814</a> (10 Years 8.5% BGT Bond Issued 020804 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0816">T10Y0816</a> (10 Years 8.5% BGT Bond Issued 07.08.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0817">T10Y0817</a> (10 Years BGT Bond Issued 08.08.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0818">T10Y0818</a> (10 years BGT Bond Issued 06.08.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0819">T10Y0819</a> (10 Years BGT Bond Issued 05.08.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0820">T10Y0820</a> (10 years BGT Bonds issued on 04.082010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0821">T10Y0821</a> (10 Years BGT Bond Issued 10.08.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0916">T10Y0916</a> (10 Years 8.5% BGT Bond Issued 06.09.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0917">T10Y0917</a> (10 Years BGT Bond Issued 05.09.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0918">T10Y0918</a> (10 years BGT Bond Issued 03.09.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0919">T10Y0919</a> (10 Years BGT Bond Issued 02.09.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0920">T10Y0920</a> (10 years BGT Bond Issued on 08.09.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y0921">T10Y0921</a> (10 Years BGT Bond Issued 14.09.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1014">T10Y1014</a> (10 Years 8.5% BGT Bond Issued 041004 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1016">T10Y1016</a> (10 Years 8.5% BGT Bond Issued 04.10.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1017">T10Y1017</a> (10 Years BGT Bond Issued 03.10.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1018">T10Y1018</a> (10 Years BGT Bond Issued 08.10.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1019">T10Y1019</a> (10 Years BGT Bond Issued 07.10.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1116">T10Y1116</a> (10 Years 8.5% BGT Bond Issued 08.11.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1117">T10Y1117</a> (10 YEARS BGT BOND ISSUED 08.11.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1118">T10Y1118</a> (10 Years BGT Bond Issued 05.11.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1120">T10Y1120</a> (10 years BGT Bond Issued 03.11.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1213">T10Y1213</a> (10 Years 8.5% BGT Bond Issued 291203 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1214">T10Y1214</a> (10 Years 8.5% BGT Bond Issued 061204 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1215">T10Y1215</a> (10 Years 8.5% BGT Bond Issued 121205 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1216">T10Y1216</a> (10Years 8.5% BGT Bond Issued 06.12.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1217">T10Y1217</a> (10 YEARS BGT BOND ISSUED 05.12.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1218">T10Y1218</a> (10 Years BGT Bond Issued 03.12.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1219">T10Y1219</a> (10 years BGT Bond issued on 02.12.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T10Y1220">T10Y1220</a> (10 years BGT Bond Issued 08.12.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0123">T15Y0123</a> (15 Years BGT Bond Issued 09.01.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0124">T15Y0124</a> (15 Years BGT Bond Issued 14.01.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0125">T15Y0125</a> (15 years BGT Bond issued on 13.01.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0223">T15Y0223</a> (15 Years BGT Bond Issued 13.02.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0224">T15Y0224</a> (15 Years BGT Bond Issued 11.02.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0225">T15Y0225</a> (15 years BGT Bond issued on 10.02.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0226">T15Y0226</a> (15 Years BGT Bond Issued 09.02.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0323">T15Y0323</a> (15 Years BGT Bond Issued 12.03.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0324">T15Y0324</a> (15 Years BGT Bond Issued 11.03.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0325">T15Y0325</a> (15 years BGT Bond issued on 10.03.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0326">T15Y0326</a> (15 Years BGT Bond Issued 09.03.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0423">T15Y0423</a> (15 Years BGT Bond Issued 09.04.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0424">T15Y0424</a> (15 Years BGT Bond Issued 15.04.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0425">T15Y0425</a> (15 years BGT Bond Issued on 15.04.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0426">T15Y0426</a> (15 Years BGT Bond Issued 13.04.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0523">T15Y0523</a> (15 Years BGT Bond Issued 14.05.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0524">T15Y0524</a> (15 Years BGT Bond Issued 13.05.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0525">T15Y0525</a> (15 years BGT Bond Issued 12.05.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0526">T15Y0526</a> (15 years BGT Bond Issued 11.05.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0623">T15Y0623</a> (15 Years BGT Bond Issued 11.06.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0624">T15Y0624</a> (15 Years BGT Bond Issued 10.06.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0625">T15Y0625</a> (15 years BGT Bond Issued 09.06.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0626">T15Y0626</a> (15 years BGT Bond Issued 15.06.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0722">T15Y0722</a> (15 Years BGT Bond Issued 11.07.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0723">T15Y0723</a> (15 Years BGT Bond Issued 09.07.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0724">T15Y0724</a> (15 Years BGT Bond Issued 15.07.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0725">T15Y0725</a> (15 years BGT Bond Issued 14.07.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0822">T15Y0822</a> (15 Years BGT Bond Issued 15.08.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0823">T15Y0823</a> (15 years BGT Bond Issued 13.08.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0824">T15Y0824</a> (15 Years BGT Bond Issued 12.08.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0825">T15Y0825</a> (15 Years BGT Bond Issued 11.08.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0826">T15Y0826</a> (15 Years BGT Bond Issued 17.08.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0922">T15Y0922</a> (15 Years BGT Bond Issued 12.09.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0923">T15Y0923</a> (15 years BGT Bond Issued 10.09.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0924">T15Y0924</a> (15 Years BGT Bond Issued 09.09.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0925">T15Y0925</a> (15 years BGT Bond Issued 15.09.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y0926">T15Y0926</a> (15 Years BGT Bond Issued 21.09.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1022">T15Y1022</a> (15 Years BGT Bond Issued 11.10.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1023">T15Y1023</a> (15 Years BGT Bond Issued 15.10.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1024">T15Y1024</a> (15 Years BGT Bond Issued 14.10.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1025">T15Y1025</a> (15 Years BGT Bond Issued 13.10.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1122">T15Y1122</a> (15 YEARS BGT BOND ISSUED 14.11.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1123">T15Y1123</a> (15 Years BGT Bond Issued 12.11.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1125">T15Y1125</a> (15 Years BGT Bond Issued 10.11.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1222">T15Y1222</a> (15 YEARS BGT BOND ISSUED 12.12.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1223">T15Y1223</a> (15 Years BGT Bond Issued 11.12.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1224">T15Y1224</a> (15 years BGT Bond issued on 09.12.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T15Y1225">T15Y1225</a> (15 Years BGT Bond Issued 15.12.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0128">T20Y0128</a> (20 Years BGT Bond Issued 23.01.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0129">T20Y0129</a> (20 Years BGT Bond Issued 28.01.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0131">T20Y0131</a> (20 years BGT Bond Issued 26.01.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0228">T20Y0228</a> (20 Years BGT Bond Issued 27.02.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0229">T20Y0229</a> (20 Years BGT Bond Issued 25.02.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0230">T20Y0230</a> (20 years BGT Bond issued on 24.02.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0231">T20Y0231</a> (20 Years BGT Bond Issued 23.02.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0328">T20Y0328</a> (20 Years BGT Bond Issued 27.03.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0329">T20Y0329</a> (20 Years BGT Bond Issued 25.03.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0330">T20Y0330</a> (20 years BGT Bond Issued 24.03.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0428">T20Y0428</a> (20 Years BGT Bond Issued 23.04.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0429">T20Y0429</a> (20 Years BGT Bond Issued 29.04.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0430">T20Y0430</a> (20 years BGT Bond Issued on 28.04.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0431">T20Y0431</a> (20 years BGT Bond Issued 27.04.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0528">T20Y0528</a> (20 Years BGT Bond Issued 28.05.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0530">T20Y0530</a> (20 years BGT Bond Issued 26.05.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0531">T20Y0531</a> (20 years BGT Bond Issued 25.05.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0628">T20Y0628</a> (20 Years BGT Bond Issued 25.06.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0629">T20Y0629</a> (20 Years BGT Bond Issued 24.06.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0630">T20Y0630</a> (20 years BGT Bond Issued 23.06.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0631">T20Y0631</a> (20 Years BGT Bond Issued 29.06.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0727">T20Y0727</a> (20 Years BGT Bond Issued 25.07.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0728">T20Y0728</a> (20 Years BGT Bond Issued 23.07.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0729">T20Y0729</a> (20 Years BGT Bond Issued 29.07.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0730">T20Y0730</a> (20 years BGT Bond Issued on 29.07.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0731">T20Y0731</a> (20 Years BGT Bond Issued 27.07.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0827">T20Y0827</a> (20 Years BGT Bond Issued 29.08.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0828">T20Y0828</a> (20 years BGT Bond Issued 27.08.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0829">T20Y0829</a> (20 Years BGT Bond Issued 26.08.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0830">T20Y0830</a> (20 years BGT Bond Issued 25.08.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0831">T20Y0831</a> (20 Years BGT Bond Issued 24.08.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0927">T20Y0927</a> (20 Years BGT Bond Issued 26.09.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0928">T20Y0928</a> (20 Years BGT Bond Issued 24.09.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0930">T20Y0930</a> (20 years BGT Bond Issued 29.09.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y0931">T20Y0931</a> (20 Years BGT Bond Issued 28.09.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1027">T20Y1027</a> (20 YEARS BGT BOND ISSUED 24.10.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1028">T20Y1028</a> (20 Years BGT Bond Issued 29.10.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1029">T20Y1029</a> (20 Years BGT Bond Issued 28.10.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1030">T20Y1030</a> (20 years BGT Bond Issued 27.10.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1127">T20Y1127</a> (20 YEARS BGT BOND ISSUED 28.11.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1128">T20Y1128</a> (20 Years BGT Bond Issued 26.11.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1130">T20Y1130</a> (20 years BGT Bond Issued 24.11.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1227">T20Y1227</a> (20 Years BGT Bond Issued 26.12.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1228">T20Y1228</a> (20 Years BGT Bond Issued 24.12.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1229">T20Y1229</a> (20 years BGT Bond issued on 23.12.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T20Y1230">T20Y1230</a> (20 years BGT Bond Issued 29.12.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0112">T5Y0112</a> (5 Years 7.5% BGT Bond Issued 24.01.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0113">T5Y0113</a> (5 Years BGT Bond Issued 16.01.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0114">T5Y0114</a> (5 Years BGT Bond Issued 21.01.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0115">T5Y0115</a> (5 years BGT Bond issued on 20.01.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0116">T5Y0116</a> (5 years BGT Bond Issued 19.01.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0212">T5Y0212</a> (5 Years 7.5% BGT Bond Issued 22.02.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0213">T5Y0213</a> (5 Years BGT Bond Issued 20.02.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0214">T5Y0214</a> (5 Years BGT Bond Issued 18.02.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0215">T5Y0215</a> (5 years BGT Bond issued on 17.02.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0216">T5Y0216</a> (5 years BGT Bond Issued 17.02.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0313">T5Y0313</a> (5 Years BGT Bond Issued 19.03.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0314">T5Y0314</a> (5 Years BGT Bond Issued 18.03.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0315">T5Y0315</a> (5 years BGT Bond Issued on 18.03.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0316">T5Y0316</a> (5 years BGT Bond Issued 16.03.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0412">T5Y0412</a> (5 Years 7.5% BGT Bond Issued 18.04.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0414">T5Y0414</a> (5 Years BGT Bond Issued 22.04.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0415">T5Y0415</a> (5 years BGT Bond Issued on 21.04.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0416">T5Y0416</a> (5 years BGT Bond Issued 20.04.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0514">T5Y0514</a> (5 Years BGT Bond Issued 20.05.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0516">T5Y0516</a> (5 years BGT Bond Issued 18.05.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0613">T5Y0613</a> (5 Years BGT Bond Issued 18.06.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0615">T5Y0615</a> (5 Years BGT Bond Issued 16.06.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0616">T5Y0616</a> (5 years BGT Bond Issued on 22.06.11 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0712">T5Y0712</a> (5 Years BGT Bond Issued 18.07.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0713">T5Y0713</a> (5 Year BGT Bond Issued 16.07.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0714">T5Y0714</a> (5 Years BGT Bond Issued 22.07.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0716">T5Y0716</a> (5 Years BGT Bond Issued 06.07.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0811">T5Y0811</a> (5 Year 7.5% BGT Bond Issued 07.08.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0812">T5Y0812</a> (5 Years BGT Bond Issued 22.08.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0813">T5Y0813</a> (5 years BGT Bond Issued 20.08.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0814">T5Y0814</a> (5 Years BGT Bond Issued 19.08.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0816">T5Y0816</a> (5 years BGT Bond Issued on 03.08.11 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0911">T5Y0911</a> (5 Years 7.5% BGT Bond Issued 20.09.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0912">T5Y0912</a> (5 Years BGT Bond Issued 19.09.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0913">T5Y0913</a> (5 years BGT Bond Issued 17.09.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0914">T5Y0914</a> (5 Years BGT Bond Issued 16.09.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0915">T5Y0915</a> (5 Years BGT Bond Issued 22.09.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y0916">T5Y0916</a> (5 Years BGT Bond Issued 07.09.2011 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1011">T5Y1011</a> (5 Years 7.5% BGT Bond Issued 18.10.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1012">T5Y1012</a> (5 Years BGT Bond Issued 17.10.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1013">T5Y1013</a> (5 Years BGT Bond Issued 22.10.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1014">T5Y1014</a> (5 Years BGT Bond Issued 21.10.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1015">T5Y1015</a> (5 Years BGT Bond Issued 20.10.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1111">T5Y1111</a> (5 Years 7.5% BGT Bond Issued 22.11.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1112">T5Y1112</a> (5 Years BGT Bond Issued 21.11.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1113">T5Y1113</a> (5 Years BGT Bond Issued 19.11.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1114">T5Y1114</a> (5 years BGT Bond issued on 18.11.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1115">T5Y1115</a> (5 Years BGT Bond Issued 21.11.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1211">T5Y1211</a> (5 Years 7.5% BGT Bonds Issued 20.12.2006 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1212">T5Y1212</a> (5 Years BGT Bond Issued 19.12.2007 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1213">T5Y1213</a> (5 Years BGT Bond Issued 17.12.2008 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1214">T5Y1214</a> (5 years BGT Bond issued on 17.12.2009 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=T5Y1215">T5Y1215</a> (5 Years BGT Bond Issued 22.12.2010 )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=TAKAFULINS">TAKAFULINS</a> (Takaful Islami Insurance Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=TALLUSPIN">TALLUSPIN</a> (Tallu Spinning Mills Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=TITASGAS">TITASGAS</a> (Titas Gas Transmission &amp; Dist. Co. Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=TOSRIFA">TOSRIFA</a> (Tosrifa Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=TRUSTB1MF">TRUSTB1MF</a> (Trust Bank 1st Mutual Fund )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=TRUSTBANK">TRUSTBANK</a> (Trust Bank Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=TUNGHAI">TUNGHAI</a> (Tung Hai Knitting &amp; Dyeing Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="399">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=UCB">UCB</a> (United Commercial Bank Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=UNIONCAP">UNIONCAP</a> (Union Capital Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=UNIQUEHRL">UNIQUEHRL</a> (Unique Hotel &amp; Resorts Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=UNITEDAIR">UNITEDAIR</a> (United Airways (BD) Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=UNITEDFIN">UNITEDFIN</a> (United Finance Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=UNITEDINS">UNITEDINS</a> (United Insurance Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=UPGDCL">UPGDCL</a> (United Power Generation &amp; Distribution Company Ltd. )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=USMANIAGL">USMANIAGL</a> (Usmania Glass Sheet Factory Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=UTTARABANK">UTTARABANK</a> (Uttara Bank Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=UTTARAFIN">UTTARAFIN</a> (Uttara Finance and Investments Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">V</td>
+    <td align="center">W</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td><table width="398">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=VAMLBDMF1">VAMLBDMF1</a> (Vanguard AML BD Finance Mutual Fund One )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=VAMLRBBF">VAMLRBBF</a> (Vanguard AML Rupali Bank Balanced Fund )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="390">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=WATACHEM">WATACHEM</a> (Wata Chemicals Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=WMSHIPYARD">WMSHIPYARD</a> (Western Marine Shipyard Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Y</td>
+    <td align="center">Z</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="403">
+      <tbody>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=YPL">YPL</a> (Yeakin Polymer Limited )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td><table width="405">
+      <tbody>
+        <tr>
+          <td width="238"><a href="http://www.dse.com.bd/displayCompany.php?name=ZAHEENSPIN">ZAHEENSPIN</a> (Zaheen Spinning Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ZAHINTEX">ZAHINTEX</a> (Zahintex Industries Limited )</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.dse.com.bd/displayCompany.php?name=ZEALBANGLA">ZEALBANGLA</a> (Zeal Bangla Sugar Mills Ltd. )</td>
+        </tr>
+      </tbody>
+    </table></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<h5>Additional</h5>
+<table width="1248" border="1">
+  <tr>
+    <td><table width="100%" cellspacing="1" cellpadding="1" border="0" bgcolor="#FFFFFF">
+      <tbody>
+        <tr bgcolor="#FFFFFF">
+          <td width="100%"><a href="http://www.dse.com.bd/displayCompany.php?name=1JANATAMF">1JANATAMF</a> (First Janata Bank Mutual Fund )<br></td>
+        </tr>
+        <tr bgcolor="#FFFFFF">
+          <td width="100%"><a href="http://www.dse.com.bd/displayCompany.php?name=1STPRIMFMF">1STPRIMFMF</a> (Prime Finance First Mutual Fund )</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    <h5> 
+  <p>Dhaka Stock Exchange Ltd.</p>  
+<p>STOCK EXCHANGE BUILDING,</p><p>9/F MOTIJHEEL C/A, DHAKA BANGLADESH</p>
+<p>Phone: 88-02-9564601, 9576210-18, FAX: +88-02-9564727, +88-02-9569755</p>
+<p>Email: dse@bol-online.com, Web: http://www.dsebd.org/</p>
+     </h5>
+     <br></h5>
+     <p align="center">All Right Reserved By: Md. Asifuzzaman Jishan, ID-143014010, Department of CSE, ULAB</p>
+   </body>
+   </html>

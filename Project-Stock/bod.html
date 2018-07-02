@@ -1,0 +1,261 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<link href="bod.css" rel="stylesheet" type="text/css">
+<style>
+	#container
+	{
+		width: 500px;
+		height: 500px;
+		border-radius: 10px;
+		border: 2px solid black;
+		margin: 50px auto;
+		padding: 20px;
+	}
+	h2{
+		text-align: center;
+		color: royalblue;
+	}
+</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">	
+	</script>
+
+	<script src="jquery-1.7.1.min.js"></script>
+
+	<script>
+		$(document).ready(function()
+		{
+			$.getJSON('https://www.google.com/finance/info?q=NASDAQ:AAPL&callback=?',function(data){
+                     $('#nifty').text(data[0].1);
+                     $('#down').text(data[0].c)
+			});
+
+			$.getJSON('https://www.google.com/finance/info?q=INDEXBOM:SENSEX&callback=?',function(data){
+                     $('#bse').text(data[0].1);
+                     $('#bsedown').text(data[0].c)
+			});
+		});
+	</script>
+	
+	<script language=javascript>
+		  document.write('Today is '+Date()+'<br />');
+		  function doTheThing(){
+		  setTimeout(function(){
+		  location.reload();
+		},500);
+	}
+	</script>
+
+
+<meta http-equiv="refresh" content="8">
+</head>
+
+<body  background="FreeGreatPicture.com-1380-background-color.jpg">
+<table width="1254" border="1">
+  <tr>
+    <td width="236" height="141"><img src="dse-logo.jpg" width="236" height="127" alt=""/></td>
+    <td width="1002">
+    <h1>Dhaka Stock Exchange Ltd.</h1></td>
+  </tr>
+</table>
+<table width="1255" style="margin-left:0em;">
+    <tr>
+    <td width="1298" height="62">
+    <div id="navigation">
+    <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/project.html">Home</a></li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">About Us</a>
+      <ul>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">Introduction to DSE</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mi&vi.html">Mission and Vision</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/glance.html">DSE at a Glance</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/bod.html">Board of Directors</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mng.html">DSE Management</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/legal.html">Legal Control</a></li>
+        </li>
+        </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Market Updates</a>
+      <ul style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Top 10 Gainer</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10l.html">Top 10 Loser</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/stat.html">Market Statistics</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Rules and Regulations</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Listing Regulation</a></li>
+        <li style="width:200px;"><a href="http://www.dse.com.bd/pdf/margin_rules.pdf">Margin Rules</a></li>
+      </ul>
+      </li style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Companies Info</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Listed Company</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/ager.html">AGM/EGM and Record Date</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/c-us.html">Contact Us</a></li>
+    </ul>
+    </div></td>
+    </tr>
+    </table>
+    <h2>Board of Directors</h2>
+    <table width="1247" border="1">
+      <tr>
+        <td width="408" align="center"><b>Name</b></td>
+        <td width="408" align="center"><b>Other Status &amp; Address</b></td>
+        <td width="409" align="center"><b>Photo</b></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table width="1247" border="1">
+      <tr>
+        <td width="408"><strong>PROFESSOR DR. ABUL           HASHEM</strong> <br>
+          <br>
+CHAIRMAN<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td width="408"><p align="left"><br>
+          VICE CHANCELLOR, </p>
+        <p align="left">International University of Scholars</p></td>
+        <td width="409" align="center"><img src="Professor Dr. Abul Hashem.jpg" width="217" height="237" alt="PROFESSOR DR. ABUL           HASHEM" longdesc="http://www.dse.com.bd/directors.php"></td>
+      </tr>
+      <tr>
+        <td><strong>JUSTICE       SIDDIQUR RAHMAN MIAH</strong><br>
+          <br>
+DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td>JUSTICE OF APPELLATE DIVISION<br>
+BANGLADESH SUPREME COURT<br>
+<br>
+House # 18, Road # 19,<br>
+Rupnagar Residential Area,<br>
+Mirpur, Dhaka. </td>
+        <td width="409" align="center"><img src="Justice Siddiqur Rahman Miah (Retd.).jpg" width="240" height="297" alt="Justice Siddiqur Rahman Miah (Retd.)" longdesc="http://http://www.dse.com.bd/directors.php"></td>
+      </tr>
+      <tr>
+        <td><strong>MRS.         MONOWARA HAKIM ALI</strong><br>
+          <br>
+DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td>FORMER DIRECTOR, FBCCI<br>
+          <br>
+Vice Chairperson,<br>
+Intraco Group,<br>
+69, Suhrawardi Avenue, Baridhara,<br>
+Dhaka</td>
+        <td width="409" align="center"><img src="Mrs. Monowara Hakim Ali.jpg" width="240" height="299" alt="Mrs. Monowara Hakim Ali" longdesc="http://http://www.dse.com.bd/directors.php"></td>
+      </tr>
+      <tr>
+        <td><strong>MR. WALIUL ISLAM</strong><br>
+          <br>
+DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td>FORMER SECRETARY (GoB)<br>
+          <br>
+Prime Dell <br>
+Apt# 001 <br>
+House# 31, Road # 123,<br>
+Gulshan, Dhaka- 1212</td>
+        <td width="409" align="center"><img src="Mr. Waliul Islam.jpg" width="238" height="226" alt="Mr. Waliul Islam" longdesc="http://http://www.dse.com.bd/directors.php"></td>
+      </tr>
+      <tr>
+        <td><strong>PROFESSOR DR. M. KAYKOBAD</strong><br>
+          <br>
+DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td><br>
+PROFESSOR, CSE<br>
+<br>
+Bangladesh University of Engineering and Technology<br>
+Dhaka-1000.</td>
+        <td width="409" align="center"><img src="Professor Dr. M Kaykobad.jpg" width="240" height="286" alt="Professor Dr. M Kaykobad" longdesc="http://http://www.dse.com.bd/directors.php"></td>
+      </tr>
+    </table>
+    <h2>SHAREHOLDER DIRECTORS</h2>
+    <table width="1248" border="1">
+      <tr>
+        <td width="408"><strong>MR. MD. RAKIBUR RAHMAN</strong><br>
+          <br>
+DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td width="408">MANAGING DIRECTOR, <br>
+MIDWAY SECURITIES LTD.<br>
+<br>
+Room # 508,<br>
+Stock Exchange Building <br>
+9/F, Motijheel C/A, <br>
+Dhaka-l000 </td>
+        <td width="409" align="center"><img src="Rakibur_Rahman.jpg" width="305" height="392" alt="Rakibur_Rahman" longdesc="http://http://www.dse.com.bd/directors.php"></td>
+      </tr>
+      <tr>
+        <td><strong>MR. MD. SHAKIL RIZVI</strong><br>
+          <br>
+DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td>MANAGING DIRECTOR<br>
+SHAKIL RIZVI STOCK LIMITED<br>
+<br>
+Modhumita Building (4th Floor) <br>
+158/160 Motijheel C/A, <br>
+Dhaka-1000 </td>
+        <td align="center"><img src="Mr. Md. Shakil Rizvi.jpg" width="253" height="300" alt="Mr. Md. Shakil Rizvi" longdesc="http://http://www.dse.com.bd/directors.php"></td>
+      </tr>
+      <tr>
+        <td><strong>MR. SHARIF ATAUR RAHMAN</strong><br>
+          <br>
+DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td>MANAGING DIRECTOR, <br>
+SAR SECURITIES LTD<br>
+<br>
+Swantex Court Building (2nd floor), 9/I, <br>
+Motijheel C/A, <br>
+Dhaka-l000 </td>
+        <td align="center"><img src="Sharif Ataur Rahman.jpg" width="236" height="295" alt="Sharif Ataur Rahman" longdesc="http://http://www.dse.com.bd/directors.php"></td>
+      </tr>
+      <tr>
+        <td><strong>MR. MD. HANIF BHUIYA</strong><br>
+          <br>
+DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td>MANAGING DIRECTOR,<br>
+RAPID SECURITIES LTD.<br>
+<br>
+Room # 620 &amp; 621, <br>
+Stock Exchange Building , <br>
+9/E  Motijheel C/A, <br>
+Dhaka-1000 </td>
+        <td align="center"><img src="Md Hanif Bhuiya.jpg" width="227" height="237" alt="Md Hanif Bhuiya" longdesc="http://http://www.dse.com.bd/directors.php"></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <h2>MANAGING DIRECTOR</h2>
+    <table width="1248" border="1">
+      <tr>
+        <td width="408"><strong>K.A.M. MAJEDUR RAHMAN</strong><br>
+          <br>
+MANAGING DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD. </td>
+        <td width="408">EX-OFFICIO DIRECTOR<br>
+DHAKA STOCK EXCHANGE LTD.<br>
+<br>
+Stock Exchange Building <br>
+9/F, Motijheel C/A, <br>
+Dhaka-l000 <br>
+Email: dse@bol-online.com </td>
+        <td width="409" align="center"><img src="MD.Majedur Rahman.jpg" width="269" height="247" alt="MD.Majedur Rahman" longdesc="http://http://www.dse.com.bd/directors.php"></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <h5> 
+  <p>Dhaka Stock Exchange Ltd.</p>  
+<p>STOCK EXCHANGE BUILDING,</p><p>9/F MOTIJHEEL C/A, DHAKA BANGLADESH</p>
+<p>Phone: 88-02-9564601, 9576210-18, FAX: +88-02-9564727, +88-02-9569755</p>
+<p>Email: dse@bol-online.com, Web: http://www.dsebd.org/</p>
+     </h5>
+     <br></h5>
+     <p align="center">All Right Reserved By: Md. Asifuzzaman Jishan, ID-143014010, Department of CSE, ULAB</p>
+  </body>
+  </html>

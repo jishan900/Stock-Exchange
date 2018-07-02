@@ -1,0 +1,166 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<link href="mng.css" rel="stylesheet" type="text/css">
+<style>
+	#container
+	{
+		width: 500px;
+		height: 500px;
+		border-radius: 10px;
+		border: 2px solid black;
+		margin: 50px auto;
+		padding: 20px;
+	}
+	h2{
+		text-align: center;
+		color: royalblue;
+	}
+</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">	
+	</script>
+
+	<script src="jquery-1.7.1.min.js"></script>
+
+	<script>
+		$(document).ready(function()
+		{
+			$.getJSON('https://www.google.com/finance/info?q=NASDAQ:AAPL&callback=?',function(data){
+                     $('#nifty').text(data[0].1);
+                     $('#down').text(data[0].c)
+			});
+
+			$.getJSON('https://www.google.com/finance/info?q=INDEXBOM:SENSEX&callback=?',function(data){
+                     $('#bse').text(data[0].1);
+                     $('#bsedown').text(data[0].c)
+			});
+		});
+	</script>
+	
+	<script language=javascript>
+		  document.write('Today is '+Date()+'<br />');
+		  function doTheThing(){
+		  setTimeout(function(){
+		  location.reload();
+		},500);
+	}
+	</script>
+
+
+<meta http-equiv="refresh" content="8">
+</head>
+
+<body background="FreeGreatPicture.com-1894-background-color.jpg">
+<table width="1254" border="1">
+  <tr>
+    <td width="236" height="141"><img src="dse-logo.jpg" width="236" height="127" alt=""/></td>
+    <td width="1002">
+    <h1>Dhaka Stock Exchange Ltd.</h1></td>
+  </tr>
+</table>
+<table width="1255" style="margin-left:0em;">
+    <tr>
+    <td width="1298" height="62">
+    <div id="navigation">
+    <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/project.html">Home</a></li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">About Us</a>
+      <ul>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">Introduction to DSE</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mi&vi.html">Mission and Vision</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/glance.html">DSE at a Glance</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/bod.html">Board of Directors</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mng.html">DSE Management</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/legal.html">Legal Control</a></li>
+        </li>
+        </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Market Updates</a>
+      <ul style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Top 10 Gainer</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10l.html">Top 10 Loser</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/stat.html">Market Statistics</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Rules and Regulations</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Listing Regulation</a></li>
+        <li style="width:200px;"><a href="http://www.dse.com.bd/pdf/margin_rules.pdf">Margin Rules</a></li>
+      </ul>
+      </li style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Companies Info</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Listed Company</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/ager.html">AGM/EGM and Record Date</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/c-us.html">Contact Us</a></li>
+    </ul>
+    </div></td>
+    </tr>
+    </table>
+    <h2>DSE Managment Team</h2>
+    <table width="1247" border="1">
+      <tr>
+        <td width="408" align="center"><b>Name</b></td>
+        <td width="408" align="center"><b>Other Status &amp; Address</b></td>
+        <td width="409" align="center"><b>Photo</b></td>
+      </tr>
+    </table>
+    <table width="1247" border="1">
+      <tr>
+        <td width="895">K.A.M.                                 Majedur Rahman <strong><br>
+        </strong> <strong> Managing Director </strong> <br>
+Email : <a href="mailto:md@dse.com.bd">md@dse.com.bd</a></td>
+        <td width="447" align="center"><img src="MD.Majedur Rahman.jpg" width="246" height="179" alt="K.A.M. Majedur Rahman" longdesc="http://http://www.dse.com.bd/manag.php"></td>
+      </tr>
+      <tr>
+        <td>A.K.M.                                 Ziaul Hasan Khan, FCA <br>
+          <strong> Chief Regulatory Officer </strong><strong></strong> <br>
+        <strong> </strong> Email : <a href="mailto:cro@dse.com.bd">cro@dse.com.bd</a></td>
+        <td align="center"><img src="CFO01.jpg" width="229" height="182" alt="CFO01" longdesc="http://http://www.dse.com.bd/manag.php"></td>
+      </tr>
+      <tr>
+        <td>Abdul                                 Matin Patwary, FCMA <strong><br>
+        </strong> <strong>Chief                                 Financial Officer</strong><br>
+Email : <a href="mailto:matin.patwary@dse.com.bd">matin.patwary@dse.com.bd</a></td>
+        <td align="center"><img src="CFO.jpg" width="148" height="165" alt="http://www.dse.com.bd/manag.php" longdesc="http://www.dse.com.bd/manag.php"></td>
+      </tr>
+      <tr>
+        <td>Md Ziaul                                 Karim <br>
+          <strong> Chief Technology Officer </strong><strong></strong> <br>
+Email : <a href="mailto: cto@dse.com.bd"> cto@dse.com.bd</a></td>
+        <td align="center"><img src="Photo of CTO.jpg" width="251" height="194" longdesc="http://www.dse.com.bd/manag.php"></td>
+      </tr>
+      <tr>
+        <td>Shaikh Mohammadullah, MBA (IBA), FCS <br>
+          <strong>General                                 Manager &amp; Head of Internal Audit Department </strong><strong></strong><br>
+Email                                 : <a href="mailto:sm.ullah@dse.com.bd">sm.ullah@dse.com.bd</a></td>
+        <td align="center"><img src="smullah.jpg" width="247" height="213" longdesc="http://www.dse.com.bd/manag.php"></td>
+      </tr>
+      <tr>
+        <td><p>Md.                                 Samiul Islam <br>
+          <strong>General                                 Manager  (HR                                 &amp; Admin)</strong><br>
+        Email : <a href="mailto:samiul.islam@dse.com.bd">samiul.islam@dse.com.bd</a></p></td>
+        <td align="center"><img src="GM_administration.jpg" width="200" height="231" longdesc="http://www.dse.com.bd/manag.php"></td>
+      </tr>
+      <tr>
+        <td><p>Mohammad Asadur Rahman, FCS <br>
+          <strong>General                                 Manager  &amp; Company Secretary </strong><br>
+        Email : <a href="mailto:asadur.rahman@dse.com.bd">asadur.rahman@dse.com.bd</a></p></td>
+        <td align="center"><img src="asadur.jpg" width="247" height="276" longdesc="http://www.dse.com.bd/manag.php"></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+        <h5> 
+  <p>Dhaka Stock Exchange Ltd.</p>  
+<p>STOCK EXCHANGE BUILDING,</p><p>9/F MOTIJHEEL C/A, DHAKA BANGLADESH</p>
+<p>Phone: 88-02-9564601, 9576210-18, FAX: +88-02-9564727, +88-02-9569755</p>
+<p>Email: dse@bol-online.com, Web: http://www.dsebd.org/</p>
+     </h5>
+     <br></h5>
+     <p align="center">All Right Reserved By: Md. Asifuzzaman Jishan, ID-143014010, Department of CSE, ULAB</p>
+   </body>
+   </html>

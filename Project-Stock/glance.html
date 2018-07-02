@@ -1,0 +1,202 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<link href="glance.css" rel="stylesheet" type="text/css">
+<style>
+	#container
+	{
+		width: 500px;
+		height: 500px;
+		border-radius: 10px;
+		border: 2px solid black;
+		margin: 50px auto;
+		padding: 20px;
+	}
+	h2{
+		text-align: center;
+		color: royalblue;
+	}
+</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">	
+	</script>
+
+	<script src="jquery-1.7.1.min.js"></script>
+
+	<script>
+		$(document).ready(function()
+		{
+			$.getJSON('https://www.google.com/finance/info?q=NASDAQ:AAPL&callback=?',function(data){
+                     $('#nifty').text(data[0].1);
+                     $('#down').text(data[0].c)
+			});
+
+			$.getJSON('https://www.google.com/finance/info?q=INDEXBOM:SENSEX&callback=?',function(data){
+                     $('#bse').text(data[0].1);
+                     $('#bsedown').text(data[0].c)
+			});
+		});
+	</script>
+	
+	<script language=javascript>
+		  document.write('Today is '+Date()+'<br />');
+		  function doTheThing(){
+		  setTimeout(function(){
+		  location.reload();
+		},500);
+	}
+	</script>
+
+
+<meta http-equiv="refresh" content="8">
+</head>
+
+<body background="FreeGreatPicture.com-1380-background-color.jpg">
+<table width="1254" border="1">
+  <tr>
+    <td width="236" height="141"><img src="dse-logo.jpg" width="236" height="127" alt=""/></td>
+    <td width="1002">
+    <h1>Dhaka Stock Exchange Ltd.</h1></td>
+  </tr>
+</table>
+<table width="1255" style="margin-left:0em;">
+    <tr>
+    <td width="1298" height="62">
+    <div id="navigation">
+    <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/project.html">Home</a></li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">About Us</a>
+      <ul>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/intro.html">Introduction to DSE</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mi&vi.html">Mission and Vision</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/glance.html">DSE at a Glance</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/bod.html">Board of Directors</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/mng.html">DSE Management</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/legal.html">Legal Control</a></li>
+       </li>
+        </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Market Updates</a>
+      <ul style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10g.html">Top 10 Gainer</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/top10l.html">Top 10 Loser</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/stat.html">Market Statistics</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Rules and Regulations</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/lr.html">Listing Regulation</a></li>
+        <li style="width:200px;"><a href="http://www.dse.com.bd/pdf/margin_rules.pdf">Margin Rules</a></li>
+      </ul>
+      </li style="width:200px;">
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Companies Info</a>
+      <ul>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/liC.html">Listed Company</a></li>
+        <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/ager.html">AGM/EGM and Record Date</a></li>
+      </ul>
+      </li>
+      <li style="width:200px;"><a href="file:///C:/xampp/htdocs/Project-Stock/c-us.html">Contact Us</a></li>
+    </ul>
+    </div></td>
+    </tr>
+    </table>
+    <img src="http://www.dsebd.org/new.jpg" alt="Stock Exchange" width="600" height="600" align="center">
+    <p><b>Incorporated as East Pakistan Stock Exchange Association Ltd.:</b>   
+28th April 1954<br>
+<b>Start of Formal Trading:  </b>  
+1956<br>
+<b>Renamed as East Pakistan Stock Exchange Ltd.:  </b>   
+23rd June 1962<br>
+<b>Renamed as Dacca Stock Exchange Ltd.:   </b>  
+13th May 1964<br>
+<b>Trading Suspended under new State Policy:   </b>  
+16th December 1971<br>
+<b>Trading Resumed in Bangladesh:  </b>  
+16 August 1976<br>
+<b>Starting Of All Share price Index calculation: </b>   
+16th September 1986<br>
+<b>Share price Indices calculation on basis of IFC Designed formula:   </b>  
+1st November 1993<br>
+<b>Starting of Automated trading:  </b>  
+10th August 1998<br>
+<b>Starting Of DSE-20 Index calculation:   </b>  
+January 2001<br>
+<b>Starting Of DSE General Index calculation:  </b>  
+27th November 2001<br>
+<b>Start of CDS through CDBL:  </b>  
+24th January 2004<br>
+<b>DSE All share price Index (DSI) Re introduced:  </b>  
+28th March 2005<br>
+<b>Regulations 2006 Introduced:  </b>  
+12th April 2006<br>
+<b>DSE Chittagong Office Inaugurated:  </b>  
+22nd November 2007<br>
+<b>DSE Sylhet Office Inaugurated:  </b>  
+30th March 2008<br>
+<b>Book-Building Method Introduced:  </b>  
+2010<br>
+<b>Web Based Trading Software-MSA Plus Introduced:  </b>   
+10th June 2012<br>
+<b>DSE became Correspondent member of World Federation of Exchanges:   </b>  
+14th October 2012<br>
+<b>Starting DSE Broad Index (DSEX) & DSE 30 Index DS30 (by S&P):   </b>  
+28th January 2013<br>
+<b>Bangla Website Introduced:  </b>  
+18th February 2013<br>
+<b>The Exchanges Demutualization Act 2013 passed by the Parliament:  </b>  
+29th April 2013<br>
+<b>Effective date of the Exchanges Demutualization Act 2013:</b>     
+02nd May 2013<br>
+<b>Signed an agreement with S&P Dow Jones Indices to launch Shariah Index: </b>    
+25th September 2013<br>
+<b>Transformed into a Demutualized Exchange:   </b>  
+21st November 2013<br>
+<b>Starting DSEX Shariah Index (DSES):  </b>   
+20th January 2014<br>
+<b>Go-live Ceremony for InstantWatch Market Surveillance Software :  </b>  
+11th February 2014<br>
+<b>Signed an agreement with NASDAQ OMX and FlexTrade Systems to provide the world leading trading system :   </b>  
+21st March 2014<br>
+<b>Next Generation Automated Trading System Inaugurated :  </b>  
+11th December 2014<br>
+<b>World Federation of Exchanges Correspondent membership upgraded to affiliated :   </b>  
+3rd March 2015<br>
+<b>Inauguration of Upgraded Version of DSE Official website:  </b>   
+12 April 2015<br>
+<b>Standardization of Circuit Breaker in Trade:  </b>  
+30 April 2015<br>
+<b>Discussion on launching Exchange Traded Fund:  </b>   
+12 August 2015<br>
+<b>Symposium on "Recent Developments in DSE and Regulatory Reforms for Capital Market" : </b>    
+15 September 2015<br>
+<b>Bangladesh Capital Market Conference:   </b>  
+21 September 2015<br>
+<b>Launch of Mobile App "DSE INFO":  </b>  
+25 November 2015<br>
+<b>Inauguration of "DSE-Mobile":   </b>  
+09 March 2016<br>
+<b>Inauguration of "New Book Building Software":   </b>  
+26 May 2016<br>
+<b>Achievement of ISO 9001:2008  </b>  
+30 October 2016<br>
+<b>Agragatir Obhijatray DSE  </b>  
+23 January 2017<br>
+<b>Memorandum of Understanding between DSE and BSE   </b>  
+12 May 2017<br>
+<b>DSE has achieved full membership of the WFE   </b>  
+06 June 2017
+<br>
+<br><br><br>
+ 
+<h5> 
+  <p>Dhaka Stock Exchange Ltd.</p>  
+<p>STOCK EXCHANGE BUILDING,</p><p>9/F MOTIJHEEL C/A, DHAKA BANGLADESH</p>
+<p>Phone: 88-02-9564601, 9576210-18, FAX: +88-02-9564727, +88-02-9569755</p>
+<p>Email: dse@bol-online.com, Web: http://www.dsebd.org/</p>
+     </h5>
+     <br></h5>
+     <p align="center">All Right Reserved By: Md. Asifuzzaman Jishan, ID-143014010, Department of CSE, ULAB</p>
+ </p>
+  </body>
+  </html>
